@@ -65,11 +65,6 @@ enableEmoji = true
     link   = "/"
 
 [[params.menu]]
-    before = true
-    label  = "Packages R"
-    link   = "/packages/"
-    
-[[params.menu]]
   before = true
   label  = "À propos"
   link   = "/apropos/"
