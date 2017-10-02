@@ -1,7 +1,5 @@
 +++
 title = "Packages R"
-date = "2017-05-20"
-menu = "main"
 disable_comments = false
 +++
 

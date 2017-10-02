@@ -1,7 +1,9 @@
 +++
 title = "À propos"
+disable_comments = false
+banner = "banners/banner_apropos.png"
 +++
-© croquis de [Bénédicte Roullier](https://twitter.com/roullierb)
+
  
   Bonjour ! 
   
@@ -16,7 +18,8 @@ title = "À propos"
 <!--https://dev.twitter.com/web/embedded-timelines/parameters -->
 <!-- data-tweet-limit="3" -->
 <div style = "width:100%">
-## Latest Tweets
-<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/antuki13"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader nofooter transparent noborders" href="https://twitter.com/antuki13"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>
+
+© croquis de [Bénédicte Roullier](https://twitter.com/roullierb)

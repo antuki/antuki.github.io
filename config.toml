@@ -68,6 +68,11 @@ enableEmoji = true
   before = true
   label  = "À propos"
   link   = "/apropos/"
+  
+  [[params.menu]]
+  before = true
+  label  = "Packages R"
+  link   = "/packages/"
 
 # Enter a link for the follow button on the left
 [params.profile]
