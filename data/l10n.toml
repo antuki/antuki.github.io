@@ -1,0 +1,39 @@
+[articles]
+    read_more = "En savoir plus..."
+    words = "mots"
+    readingtime = "minutes à perdre"
+    share = "Partager"
+    comments = "Commentaires"
+
+# Linked older/newer posts at the bottom of each one
+[articles.linked_posts]
+    older = "Précédents"
+    newer = "Suivants"
+
+[search]
+    placeholder = "Rechercher"
+
+[pagination]
+    previous = "Précédent"
+    next = "Suivant"
+
+[profile]
+    follow_button = "@antuki13"
+    tags = "Tags"
+    posts = "Articles"
+
+[page_not_found]
+    title = "404 - page not found"
+    subtitle = "The content you're looking for doesn't seem to exist."
+
+[widgets.categories]
+    title = "Catégories"
+
+[widgets.recent_articles]
+    title = "Récents"
+
+[widgets.tag_cloud]
+    title = "Nuage de tags"
+
+[widgets.tags]
+title = "Tags"

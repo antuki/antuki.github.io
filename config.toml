@@ -1,0 +1,122 @@
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# don't hard code http: or https: - will be added to links according to how page is served
+baseurl = "//antuki.github.io/"
+publishdir = "../antuki.github.io"
+languageCode = "fr"
+title = "antuki.github.io"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "antuki"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+# Define the number of posts per page
+paginate = 5
+footnotereturnlinkcontents = "↩" 
+theme = "hugo-icarus-theme"
+# Don't pluralize section titles (e.g. Blog -> Blogs)
+pluralizelisttitles = false
+# keep tag/category names (e.g. useR! not user)
+preserveTaxonomyNames = true
+# don't canonify URLs so can use http://antuki.github.io/ or https://antuki.github.io/
+canonifyURLs = false
+rssLimit = 30
+# NEW
+# include content marked as draft
+buildDrafts = false
+# Enable Emoji emoticons support for page content; see emoji-cheat-sheet.com
+enableEmoji = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  
+[params]
+    # Tell me who you are
+    author = "antuki"
+    bio = "Statistician or #RLadies  :information_desk_person: for those in the know. Love #RStats #RStatsFR Interested in #spatialanalysis and #dataviz  => #COGugaison NEW #RPackage"
+    location = "Paris, France"
+    site_description = "Description du site"
+    copyright  = "antuki. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
+    avatar = "https://pbs.twimg.com/profile_images/879092302018478080/oANJ_6WD_400x400.jpg"
+    logo = "https://pbs.twimg.com/profile_images/879092302018478080/oANJ_6WD_400x400.jpg"
+    fullURL = "//antuki.github.io"
+    # Format dates with Go's time formatting
+    date_format = "2006-01-02"
+
+    # Add custom assets with their paths relative to the static folder
+	custom_css = ["css/css_kim.css"]
+	custom_js  = ["js/jqueryui-1.11.4/jquery-ui.min.js", 
+	              "js/tocify-1.9.1/jquery.tocify.js"]
+  disable_mathjax = false # set to true to disable MathJax
+# define which types of pages should be shown. By default the type with the most regular pages
+#mainSections = ["post"]
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+
+    
+[[params.menu]]
+    before = true
+    label  = "Articles"
+    link   = "/"
+
+[[params.menu]]
+    before = true
+    label  = "Packages R"
+    link   = "/packages/"
+
+[[params.menu]]
+    before = true
+    label  = "À propos"
+    link   = "/apropos/"
+
+
+# Enter a link for the follow button on the left
+[params.profile]
+    follow_button = "https://twitter.com/antuki13"
+
+
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+    github          = "antuki"
+    gitlab          = ""
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = "kantunez"
+    slideshare      = ""
+    stackoverflow   = ""
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "antuki13"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = false
+    categories = false
+    tags = true
+tag_cloud = false
