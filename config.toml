@@ -61,19 +61,18 @@ enableEmoji = true
     
 [[params.menu]]
     before = true
-    label  = "Articles"
+    label  = "Blog"
     link   = "/"
 
 [[params.menu]]
     before = true
     label  = "Packages R"
     link   = "/packages/"
-
+    
 [[params.menu]]
-    before = true
-    label  = "À propos"
-    link   = "/apropos/"
-
+  before = true
+  label  = "À propos"
+  link   = "/apropos/"
 
 # Enter a link for the follow button on the left
 [params.profile]

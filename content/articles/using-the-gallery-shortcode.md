@@ -1,7 +1,7 @@
 +++
 banner = ""
 categories = []
-date = "2017-05-20T12:00:23+02:00"
+date = "2002-05-01"
 description = ""
 images = []
 menu = ""
@@ -16,10 +16,10 @@ This way you can easily include a gallery into your page. Copy the code below in
 
     {{</* gallery
         "/banners/placeholder.png"
-        "/banners/placeholder.png"
+        "/banners/banner_apropos.png"
         "/banners/placeholder.png"
     */>}}
 
 <p></p>
 
-{{< gallery "/banners/placeholder.png" "/banners/placeholder.png" "/banners/placeholder.png" >}}
+{{< gallery "/banners/placeholder.png" "/banners/banner_apropos.png" "/banners/placeholder.png" >}}
