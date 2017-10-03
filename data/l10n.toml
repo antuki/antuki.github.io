@@ -7,8 +7,8 @@
 
 # Linked older/newer posts at the bottom of each one
 [articles.linked_posts]
-    older = "Précédents"
-    newer = "Suivants"
+    older = "Articles précédents"
+    newer = "Articles suivants"
 
 [search]
     placeholder = "Rechercher"

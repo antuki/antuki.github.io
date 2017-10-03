@@ -2,6 +2,7 @@
 title = "À propos"
 disable_comments = false
 banner = "banners/banner_apropos.png"
+nodateline = true
 +++
 
  
