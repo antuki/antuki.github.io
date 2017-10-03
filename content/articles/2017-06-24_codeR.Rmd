@@ -11,6 +11,12 @@ images: []
 menu: ''
 ---
 
+TEXTE AVANT
+TEXTE AVANT
+
+TEXTE AVANT
+TEXTE AVANT
+
 ```{r, eval=T}
 par(mar = c(0, 1, 0, 1))
 pie(
@@ -22,3 +28,7 @@ pie(
 ### hello
 1+1
 ```
+
+<!--more-->
+
+TEXTE APRES
