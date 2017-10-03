@@ -20,5 +20,8 @@
                 <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
             </div>
         </header>
+        <div class="archive-article-entry" itemprop="articleBody">
+            {{ .Content }}
+        </div>
     </div>
 </article>
