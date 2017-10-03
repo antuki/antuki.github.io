@@ -11,14 +11,8 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
             <p>
-              <!-- {{ .Description | default .Summary }} -->
-              {{ with .Description }}
-              {{ $.Scratch.Set "summary" (markdownify .) }}
-              {{ else }}
-              {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-              {{ end }}
-              {{ $.Scratch.Get "summary" }} 
-             </p>
+                {{ .Description | default .Summary | plainify | safeHTML}}
+            </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
                     {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
