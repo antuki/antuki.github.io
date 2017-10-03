@@ -11,12 +11,7 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
             <p>
-  {{ with .Description }}
-  {{ $.Scratch.Set "summary" (markdownify .) }}
-  {{ else }}
-  {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>.*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify |  replaceRE "&amp;" "&" | safeHTML) }}
- {{ end }}
- {{ $.Scratch.Get "summary" }}
+            {{ .Description | default .Summary }}
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
