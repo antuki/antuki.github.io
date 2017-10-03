@@ -1,0 +1,33 @@
+{{ $paginator := .Paginate (where .Data.Pages "Section" "in" .Site.Params.mainSections) }}
+{{ range $paginator.Pages }}
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
+        <a href="{{ .Permalink }}" itemprop="url">
+            <img src="{{ .Params.banner | absURL }}" class="article-banner">
+        {{ end }}
+        </a>
+
+        {{ partial "article_header" . }}
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+              <!-- {{ .Description | default .Summary }} -->
+              {{ with .Description }}
+              {{ $.Scratch.Set "summary" (markdownify .) }}
+              {{ else }}
+              {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
+              {{ end }}
+              {{ $.Scratch.Get "summary" }} 
+             </p>
+            <p class="article-more-link">
+                <a href="{{ .Permalink }}">
+                    {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
+                </a>
+            </p>
+        </div>
+        {{ partial "article_footer" . }}
+    </div>
+</article>
+{{ end }}
+
+{{ partial "pagination" . }}
