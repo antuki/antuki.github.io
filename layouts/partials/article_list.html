@@ -11,7 +11,12 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
             <p>
-                 {{ printf "%s" .Summary | markdownify }}
+  {{ with .Description }}
+  {{ $.Scratch.Set "summary" (markdownify .) }}
+  {{ else }}
+  {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>.*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) |  replaceRE "&amp;" "&" | safeHTML) }}
+ {{ end }}
+ {{ $.Scratch.Get "summary" }}
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
