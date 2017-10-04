@@ -10,11 +10,13 @@
 
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
-{% if .Content contains '<!--more-->' %}
+          <p>
+{{ if .Truncated }}
 {{ .Summary }}
-{% else %}
+{{ else }}
 {{ .Content }}
-{% endif %}
+{{ end }}
+            </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
                     {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
