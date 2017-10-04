@@ -14,7 +14,7 @@
 {{ with .Description }}
 {{ $.Scratch.Set "summary" (markdownify .) }}
 {{ else }}
-{{ $.Scratch.Set "summary" (.Content | strings.TrimRight "Shady") }}
+{{ $.Scratch.Set "summary" (.Content | replaceRE "Shady.*" "$1") }}
 {{ end }}
 {{ $.Scratch.Get "summary" }}
             </p>
