@@ -15,8 +15,8 @@ description : ''
 pie(c(280, 60, 20),c('Sky', 'Sunny', 'Shady'))
 ```
 
-Before cut 
+Avant cut 
 
 <!--more-->
 
-After cut
+Après cut

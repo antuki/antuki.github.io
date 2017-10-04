@@ -15,4 +15,4 @@ description : ''
 pie(c(280, 60, 20),c('Sky', 'Sunny', 'Shady'))
 ```
 
-No cut
+Pas de cut
