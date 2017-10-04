@@ -11,10 +11,10 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
           <p>
-  {{ with .Description }}
-  {{ $.Scratch.Set "summary" (markdownify .) }}
+{{ with .Description }}
+{{ $.Scratch.Set "summary" (markdownify .) }}
 {{ else }}
-  {{ $.Scratch.Set "summary" (.Content | plainify | safeHTML) }}
+{{ $.Scratch.Set "summary" (.Content | safeHTML) }}
 {{ end }}
 {{ $.Scratch.Get "summary" }}
 

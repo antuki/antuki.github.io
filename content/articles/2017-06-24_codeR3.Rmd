@@ -6,7 +6,7 @@ slug:
 categories: []
 tags: [Open data et open source]
 banner: ''
-description: 'HOHO'
+description: '<pre class="r"><code>pie(c(280, 60, 20),c(&#39;Sky&#39;, &#39;Sunny&#39;, &#39;Shady&#39;))</code></pre>'
 images: []
 menu: ''
 ---
