@@ -6,9 +6,9 @@ slug:
 categories: []
 tags: [Open data et open source]
 banner: ''
-description: ''
 images: []
 menu: ''
+description : '<img src="//antuki.github.io/articles/2017-06-24_codeR2_files/figure-html/unnamed-chunk-1-1.png" width="672" />'
 ---
 
 ```{r, eval=T}

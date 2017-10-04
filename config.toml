@@ -35,7 +35,6 @@ enableEmoji = true
     author = "antuki"
     bio = "Statistician or #RLadies  :information_desk_person: for those in the know. Love #RStats #RStatsFR Interested in #spatialanalysis and #dataviz  => #COGugaison NEW #RPackage"
     location = "Paris, France"
-    site_description = "Description du site"
     copyright  = "antuki. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
     avatar = "https://pbs.twimg.com/profile_images/879092302018478080/oANJ_6WD_400x400.jpg"
     logo = "https://pbs.twimg.com/profile_images/879092302018478080/oANJ_6WD_400x400.jpg"

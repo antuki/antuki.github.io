@@ -8,7 +8,7 @@ tags: [Open data et open source]
 banner: ''
 images: []
 menu: ''
-description : "hello description !"
+description : ''
 summary : "hello summary "
 ---
 

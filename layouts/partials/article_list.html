@@ -14,7 +14,7 @@
         {{ if .Description }}
         {{ .Description }}
         {{ else }}
-        {{ .Summary | plainify | safeHTML }}
+        {{ .Summary }}
         {{ end }}
             </p>
             <p class="article-more-link">
