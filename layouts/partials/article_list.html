@@ -11,12 +11,8 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
             <p>
-        {{ if .Description }}
-        {{ .Description }}
-        {{ else }}
-        {{ .Summary | safeHTML }}
-        {{ end }}
-            </p>
+        {{ .Content }}
+              </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
                     {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
