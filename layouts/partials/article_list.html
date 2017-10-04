@@ -14,7 +14,7 @@
 {{ with .Description }}
 {{ $.Scratch.Set "summary" (markdownify .) }}
 {{ else }}
-{{ $.Scratch.Set "summary" (.Content | safeHTML | markdownify) }}
+{{ $.Scratch.Set "summary" (.Summary | safeHTML | markdownify) }}
 {{ end }}
 {{ $.Scratch.Get "summary" }}
             </p>

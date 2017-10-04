@@ -1,0 +1,22 @@
+---
+title:  Code R
+author: ~
+date: '2017-06-30'
+slug: 
+categories: []
+tags: [Open data et open source]
+banner: ''
+images: []
+menu: ''
+description : ''
+---
+
+```{r, eval=T}
+pie(c(280, 60, 20),c('Sky', 'Sunny', 'Shady'))
+```
+
+HELLO
+
+<!--more-->
+
+good bye ???
