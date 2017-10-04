@@ -11,8 +11,4 @@ menu: ''
 description : ''
 ---
 
-```{r, eval=T}
-pie(c(280, 60, 20),c('Sky', 'Sunny', 'Shady'))
-```
-
-Pas de cut
+COCOT
