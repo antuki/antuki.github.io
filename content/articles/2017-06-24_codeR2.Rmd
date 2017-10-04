@@ -6,12 +6,10 @@ slug:
 categories: []
 tags: [Open data et open source]
 banner: ''
-description: ''
 images: []
 menu: ''
-output:
-  html_document:
-    keep_md: TRUE
+description : "hello description !"
+summary : "hello summary "
 ---
 
 ```{r, eval=T}

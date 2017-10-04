@@ -11,7 +11,11 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
             <p>
-            {{ .Description | default .Summary }}
+        {{ if .Description }}
+        {{ .Description }}
+        {{ else }}
+        {{ .Summary | plainify | safeHTML }}
+        {{ end }}
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
