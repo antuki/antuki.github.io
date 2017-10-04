@@ -11,11 +11,7 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
           <p>
-{{ if in .Content "<!--more-->"}}
 {{first 1 (split .Content "<!--more-->")}}
-{{ else }}
-{{ .Content }}
-{{ end }}
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
