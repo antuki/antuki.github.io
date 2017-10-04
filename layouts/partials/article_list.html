@@ -14,10 +14,9 @@
 {{ with .Description }}
 {{ $.Scratch.Set "summary" (markdownify .) }}
 {{ else }}
-{{ $.Scratch.Set "summary" (.Content | safeHTML) }}
+{{ $.Scratch.Set "summary" (.Content | safeHTML | markdownify) }}
 {{ end }}
 {{ $.Scratch.Get "summary" }}
-
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
