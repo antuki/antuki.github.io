@@ -1,5 +1,5 @@
 ---
-title:  Code R
+title:  Code R3
 author: ~
 date: '2017-06-25'
 slug: 
@@ -14,3 +14,7 @@ menu: ''
 ```{r, eval=T}
 pie(c(280, 60, 20),c('Sky', 'Sunny', 'Shady'))
 ```
+
+<!--more-->
+
+HELLO
