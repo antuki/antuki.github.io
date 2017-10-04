@@ -11,8 +11,8 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
           <p>
-{{ if .Truncated }}
-{{ .Summary }}
+{{ if in .Content "<!--more-->"}}
+{{first 1 (split .Content "<!--more-->")}}
 {{ else }}
 {{ .Content }}
 {{ end }}
