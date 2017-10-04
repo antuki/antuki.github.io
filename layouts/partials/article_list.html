@@ -14,7 +14,7 @@
 {{ with .Description }}
 {{ $.Scratch.Set "summary" (markdownify .) }}
 {{ else }}
-{{ $.Scratch.Set "summary" (.Content | replaceRE "<!--more-->.*" "") }}
+{{ $.Scratch.Set "summary" (.Content | replaceRE "<p>HELLO</p>.*" "") }}
 {{ end }}
 {{ $.Scratch.Get "summary" }}
             </p>
