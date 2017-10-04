@@ -10,9 +10,11 @@
 
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
-            <p>
-        {{ .Render "summary" }}
-              </p>
+{% if .Content contains '<!--more-->' %}
+{{ .Summary }}
+{% else %}
+{{ .Content }}
+{% endif %}
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
                     {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}

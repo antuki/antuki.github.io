@@ -1,16 +1,5 @@
-{{ $lang := .Site.Data.even.default -}}
-<article class="post">
-  <!-- Content -->
-  <div class="post-content">
-    <div class="post-summary">
-   {% if .Content contains '<!--more-->' %}
-   {{ .Summary }}
-   {% else %}
-   {{ .Content }}
-   {% endif %}
-    </div>
-    <div class="read-more">
-      <a href="{{ .URL }}" class="read-more-link">{{ $lang.posts.readmore }}</a>
-    </div>
-  </div>
-</article>
+{% if .Content contains '<!--more-->' %}
+{{ .Summary }}
+{% else %}
+{{ .Content }}
+{% endif %}
