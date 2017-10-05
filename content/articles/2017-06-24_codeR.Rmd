@@ -1,5 +1,5 @@
 ---
-title:  Code R
+title:  "Code R :information_desk_person:"
 author: ~
 date: '2017-06-30'
 slug: 
@@ -17,4 +17,4 @@ pie(c(280, 60, 20),c('Sky', 'Sunny', 'Shady'))
 
 <!--more-->
 
-J'ai réussi !!!
+Ceci est un camembert.

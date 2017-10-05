@@ -7,7 +7,7 @@
       <img id="avatar" src="{{ .Site.Params.avatar | absURL }}">
       {{ end }}
       {{ with .Site.Params.author}}<h2 id="name">{{ . }}</h2>{{ end }}
-      {{ with .Site.Params.bio }}<h3 id="title">{{ . }}</h3>{{ end }}
+      {{ with .Site.Params.bio }}<h3 id="title">{{ . | markdownify}}</h3>{{ end }}
       {{ with .Site.Params.location }}<span id="location"><i class="fa fa-map-marker"></i>{{ . }}</span>{{ end }}
       {{ with .Site.Params.profile.follow_button }}
           <a id="follow" href="{{ . }}">
@@ -17,7 +17,9 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        {{ len (where .Site.RegularPages "Type" "articles") }} <!-- avant articles : post --> 
+        <!-- Personnalisation : articles à la place de post --> 
+        {{ len (where .Site.RegularPages "Type" "articles") }} 
+        <!-- Personnalisation : articles à la place de post --> 
         <span>{{with .Site.Data.l10n.profile.posts}}{{.}}{{end}}</span>
       </div>
       <div class="article-info-block">
