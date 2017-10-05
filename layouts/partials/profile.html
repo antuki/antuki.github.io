@@ -7,7 +7,9 @@
       <img id="avatar" src="{{ .Site.Params.avatar | absURL }}">
       {{ end }}
       {{ with .Site.Params.author}}<h2 id="name">{{ . }}</h2>{{ end }}
-      {{ with .Site.Params.bio }}<h3 id="title">{{ . | markdownify}}</h3>{{ end }}
+       <!-- ajout d'emojify --> 
+      {{ with .Site.Params.bio }}<h3 id="title">{{ . | emojify}}</h3>{{ end }}
+       <!-- ajout d'emojify --> 
       {{ with .Site.Params.location }}<span id="location"><i class="fa fa-map-marker"></i>{{ . }}</span>{{ end }}
       {{ with .Site.Params.profile.follow_button }}
           <a id="follow" href="{{ . }}">
