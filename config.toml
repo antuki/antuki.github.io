@@ -1,4 +1,4 @@
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.md$"]
 
 # don't hard code http: or https: - will be added to links according to how page is served
 baseurl = "//antuki.github.io/"
