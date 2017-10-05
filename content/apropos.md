@@ -4,8 +4,8 @@ disable_comments = false
 banner = "banners/banner_apropos.png"
 nodateline = true
 +++
+© croquis de [Bénédicte Roullier](https://twitter.com/roullierb)
 
- 
   Bonjour ! 
   
   Je m'appelle Kim, je suis statisticienne et j'aime beaucoup faire du R à mes heures perdues.
@@ -16,8 +16,3 @@ nodateline = true
   
  
 
-<!--https://dev.twitter.com/web/embedded-timelines/parameters -->
-<!-- data-tweet-limit="3" -->
-<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader nofooter transparent noborders" href="https://twitter.com/antuki13"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-© croquis de [Bénédicte Roullier](https://twitter.com/roullierb)
