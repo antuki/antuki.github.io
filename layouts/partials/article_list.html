@@ -15,7 +15,7 @@
             {{ with .Description }}
             {{ $.Scratch.Set "summary" (markdownify .) }}
             {{ else }}
-            {{ $.Scratch.Set "summary" (.Content | replaceRE "(?m)(?s:<!--more-->.*$)" "" | markdownify | emojify) }}
+            {{ $.Scratch.Set "summary" (.Content | replaceRE "(?m)(?s:<p>MORE</p>.*$)" "" | markdownify | emojify) }}
             {{ end }}
             {{ $.Scratch.Get "summary" }}
 <!--Personnalisation du summary-->
