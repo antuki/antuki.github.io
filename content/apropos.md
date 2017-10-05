@@ -15,12 +15,9 @@ nodateline = true
   Bonne visite !
   
  
-</div>
+
 <!--https://dev.twitter.com/web/embedded-timelines/parameters -->
 <!-- data-tweet-limit="3" -->
-<div style = "width:100%">
 <a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader nofooter transparent noborders" href="https://twitter.com/antuki13"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-</div>
 
 © croquis de [Bénédicte Roullier](https://twitter.com/roullierb)

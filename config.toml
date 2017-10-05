@@ -33,7 +33,7 @@ enableEmoji = true
 [params]
     # Tell me who you are
     author = "antuki"
-    bio = "Statistician and  #RLadies :princess: for those in the know. :blue_heart: #RStats #RStatsFR :flag_fr: Interested in  #SpatialAnalysis and  #DataViz :arrow_right: #COGugaison :new: #RPackage"
+    bio = "Statistician and  #RLadies :princess: for those in the know. :blue_heart: #RStats #RStatsFR  :flag_fr: Interested in  #SpatialAnalysis and  #DataViz :arrow_right: #COGugaison :new: #RPackage"
     location = "Paris, France"
     copyright  = "antuki. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
     avatar = "https://pbs.twimg.com/profile_images/879092302018478080/oANJ_6WD_400x400.jpg"
