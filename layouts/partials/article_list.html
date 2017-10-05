@@ -11,18 +11,14 @@
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
           <p>
-            <!--Personnalisation du summary-->
+ <!--Personnalisation du summary-->
             {{ with .Description }}
-              {{ $.Scratch.Set "summary" (markdownify .) }}
+            {{ $.Scratch.Set "summary" (markdownify .) }}
             {{ else }}
-              {{ if in .Content "<!--more-->" }}
-                {{ $.Scratch.Set "summary" (.Content | replaceRE "(?m)(?s:<!--more-->.*$)" "" | markdownify | emojify) }}
-              {{ else }}
-                {{ .Summary }}
-              {{ end }}
+            {{ $.Scratch.Set "summary" (.Content | replaceRE "(?m)(?s:<!--more-->.*$)" "" | markdownify | emojify) }}
             {{ end }}
             {{ $.Scratch.Get "summary" }}
-            <!--Personnalisation du summary-->
+<!--Personnalisation du summary-->
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
