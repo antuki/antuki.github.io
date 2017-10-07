@@ -53,7 +53,7 @@ bio = "Statisticienne et  #RLadies :princess: pour ceux qui connaissent. :blue_h
 
 [Languages.en]
 languageName = "English" 
- bo = "Statistician and  #RLadies :princess: for those in the know. :blue_heart: #RStats #RStatsFR  🇫🇷 Interested in  #SpatialAnalysis and  #DataViz :arrow_right: #COGugaison :new: #RPackage"
+ bio = "Statistician and  #RLadies :princess: for those in the know. :blue_heart: #RStats #RStatsFR  🇫🇷 Interested in  #SpatialAnalysis and  #DataViz :arrow_right: #COGugaison :new: #RPackage"
 
 [params]
     # Tell me who you are
