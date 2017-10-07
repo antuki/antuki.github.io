@@ -1,0 +1,34 @@
+---
+title:  "Premier article :information_desk_person:"
+author: ~
+date: '2017-10-07'
+slug: 
+categories: []
+tags: [S'amuser sur R]
+banner: ''
+images: []
+menu: ''
+description : ''
+---
+
+
+
+<p>Un petit message noctune pour exprimer ma joie d’avoir enfin un blog qui tienne la route…</p>
+<p>Et qui permette de générer des articles très facilement depuis R</p>
+<p>Je vous présente par exemple la nouvelle palette de couleur à la mode appelée viridis et les diagrammes en violon…</p>
+<pre class="r"><code>library(ggplot2)
+library(viridis)</code></pre>
+<pre><code>## Warning: le package &#39;viridis&#39; a été compilé avec la version R 3.4.2</code></pre>
+<pre><code>## Le chargement a nécessité le package : viridisLite</code></pre>
+<pre class="r"><code>head(ToothGrowth)</code></pre>
+<pre><code>##    len supp dose
+## 1  4.2   VC  0.5
+## 2 11.5   VC  0.5
+## 3  7.3   VC  0.5
+## 4  5.8   VC  0.5
+## 5  6.4   VC  0.5
+## 6 10.0   VC  0.5</code></pre>
+<pre class="r"><code>ToothGrowth$dose &lt;- as.factor(ToothGrowth$dose)
+ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) +   geom_violin() + scale_x_discrete() + coord_flip()+scale_fill_manual(values=viridis(3))</code></pre>
+<p><img src="/articles/2017-06-24_PremierPost_files/figure-html/fig_en-1.png" width="672" /></p>
+<!--more-->

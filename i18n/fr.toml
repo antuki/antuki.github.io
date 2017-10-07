@@ -1,0 +1,30 @@
+[home]
+other = "Maison"
+
+[readingTime]
+one = "1 minute à perdre"
+other = "{{.Count}} minutes à perdre"
+
+[read_more]
+other = "En savoir plus..."
+
+[share]
+other = "Partager"
+
+[comments]
+other = "Commentaires"
+
+[placeholder]
+other = "Rechercher"
+
+[prev]
+other = "Précédent"
+
+[next]
+other = "Suivant"
+
+[postsnewer]
+other = "Article suivant"
+
+[postsolder]
+other = "Article précédent"

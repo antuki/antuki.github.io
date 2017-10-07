@@ -1,7 +1,9 @@
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # don't hard code http: or https: - will be added to links according to how page is served
-baseurl = "//antuki.github.io/"
+#baseurl = "//antuki.github.io/"
+baseurl = "/"
+DefaultContentLanguage = "fr"
 publishdir = "../antuki.github.io"
 languageCode = "fr"
 title = "antuki.github.io"
@@ -30,10 +32,32 @@ enableEmoji = true
   category = "categories"
   tag = "tags"
   
+
+[[menu.main]]
+        url    = "/"
+        name   = "Blog"
+
+[[menu.main]]
+        url    = "/packages/"
+        name   = "R Packages"
+
+[[menu.main]]
+        url    = "/apropos/"
+        name   = "What else ?"
+        
+[Languages]
+
+[Languages.fr]
+languageName = "Français"
+bio = "Statisticienne et  #RLadies :princess: pour ceux qui connaissent. :blue_heart: #RStats #RStatsFR  🇫🇷 Intéressée par la  #SpatialAnalysis et la #DataViz :arrow_right: #COGugaison :new: #RPackage"
+
+[Languages.en]
+languageName = "English" 
+ bo = "Statistician and  #RLadies :princess: for those in the know. :blue_heart: #RStats #RStatsFR  🇫🇷 Interested in  #SpatialAnalysis and  #DataViz :arrow_right: #COGugaison :new: #RPackage"
+
 [params]
     # Tell me who you are
     author = "antuki"
-    bio = "Statistician and  #RLadies :princess: for those in the know. :blue_heart: #RStats #RStatsFR  🇫🇷 Interested in  #SpatialAnalysis and  #DataViz :arrow_right: #COGugaison :new: #RPackage"
     location = "Paris, France"
     copyright  = "antuki. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
     avatar = "https://pbs.twimg.com/profile_images/879092302018478080/oANJ_6WD_400x400.jpg"
@@ -43,7 +67,7 @@ enableEmoji = true
     date_format = "2006-01-02"
 
     # Add custom assets with their paths relative to the static folder
-	custom_css = ["css/css_kim.css"]
+#	custom_css = ["css/css_kim.css"]
 	custom_js  = ["js/jqueryui-1.11.4/jquery-ui.min.js", 
 	              "js/tocify-1.9.1/jquery.tocify.js"]
   disable_mathjax = false # set to true to disable MathJax
@@ -57,21 +81,6 @@ mainSections = ["articles"]
 # E.g.: "Home" appears before all linked posts in the menu
 # and "Tags" / "Categories" after them.
 
-    
-[[params.menu]]
-    before = true
-    label  = "Blog"
-    link   = "/"
-
-[[params.menu]]
-  before = true
-  label  = "À propos"
-  link   = "/apropos/"
-  
-  [[params.menu]]
-  before = true
-  label  = "Packages R"
-  link   = "/packages/"
 
 # Enter a link for the follow button on the left
 [params.profile]

@@ -4,7 +4,6 @@ disable_comments = false
 banner = "banners/banner_apropos.png"
 nodateline = true
 +++
-© croquis de [Bénédicte Roullier](https://twitter.com/roullierb)
 
   Bonjour ! 
   
@@ -14,5 +13,6 @@ nodateline = true
   
   Bonne visite !
   
+© croquis de [Bénédicte Roullier](https://twitter.com/roullierb)
  
 

@@ -22,6 +22,9 @@
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
+                  <!--ajout traduction -->
+             {{ i18n "read_more" }}
+             <!--ajout traduction -->
                     {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
                 </a>
             </p>

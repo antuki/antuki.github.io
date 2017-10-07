@@ -1,0 +1,28 @@
+---
+title:  "First article :information_desk_person:"
+author: ~
+date: '2017-10-07'
+slug: 
+categories: []
+tags: [R fun]
+banner: ''
+images: []
+menu: ''
+description : ''
+---
+
+A small message in the night to share my happy mood of having a new blog which does not seem so bad after all.
+
+And which allows me to create posts in a very simple way from R. 
+
+Like that i'm showing you for example the very trendy viridis palette and what we call violin diagram (kind of boxplot but much more better).
+
+```{r fig_en, eval=T}
+library(ggplot2)
+library(viridis)
+head(ToothGrowth)
+ToothGrowth$dose <- as.factor(ToothGrowth$dose)
+ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) +   geom_violin() + scale_x_discrete() + coord_flip()+scale_fill_manual(values=viridis(3))
+```
+
+<!--more-->

@@ -1,0 +1,28 @@
+{{ if and (or .PrevInSection .NextInSection) (not .Params.noprevnext) }}
+<nav id="article-nav">
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+           {{with .Site.Data.l10n.articles.linked_posts.older}}{{.}}{{end}}
+            <!--ajout traduction -->
+          {{ i18n "postsolder" }}
+            <!--ajout traduction -->
+      </strong>
+      <div class="article-nav-title">{{ .PrevInSection.Title }}</div>
+    </a>
+    {{ end }}
+
+    {{ if .NextInSection }}
+    <a href="{{ .NextInSection.Permalink }}" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          {{with .Site.Data.l10n.articles.linked_posts.newer}}{{.}}{{end}}
+            <!--ajout traduction -->
+          {{ i18n "postsnewer" }}
+            <!--ajout traduction -->
+      </strong>
+      <div class="article-nav-title">{{ .NextInSection.Title }}</div>
+    </a>
+    {{ end }}
+</nav>
+{{ end }}
+

@@ -1,0 +1,19 @@
+<nav id="page-nav">
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+    {{ if .Paginator.HasPrev }}
+    <!--ajout traduction à la place de  « {{ with .Site.Data.l10n.pagination.prev}}{{ . }}{{ end }}  -->
+        <a class="extend prev" rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
+            {{ i18n "prev" }}
+        </a>
+        <!--ajout traduction -->
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+        <!--ajout traduction {{ with .Site.Data.l10n.pagination.next }}{{ . }}{{ end }} » -->    
+
+        <a class="extend next" rel="next" href="{{ .Paginator.Next.URL | absURL }}">
+            {{ i18n "next" }}
+        </a>
+    <!--ajout traduction -->
+    {{ end }}
+{{ end }}
+</nav>

@@ -1,132 +1,3 @@
-/*
-Monokai style - ported by Luigi Maselli - http://grigio.org
-*/
-
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #f8f8ff;
-  -webkit-text-size-adjust: none;
-}
-
-.hljs-tag,
-.hljs-tag .hljs-title,
-.hljs-keyword,
-.hljs-literal,
-.hljs-strong,
-.hljs-change,
-.hljs-winutils,
-.hljs-flow,
-.nginx .hljs-title,
-.tex .hljs-special {
-  color: #f92672;
-}
-
-.hljs {
-  color: #000000;
-}
-
-.hljs .hljs-constant,
-.asciidoc .hljs-code,
-.markdown .hljs-code {
-  color: #66d9ef;
-}
-
-.hljs-code,
-.hljs-class .hljs-title,
-.hljs-header {
-  color: #900;
-  font-weight: bold
-}
-
-.hljs-link_label,
-.hljs-attribute,
-.hljs-symbol,
-.hljs-symbol .hljs-string,
-.hljs-value,
-.hljs-regexp {
-   color: #000000;
-}
-
-.hljs-link_url,
-.hljs-tag .hljs-value,
-.hljs-string,
-.hljs-bullet,
-.hljs-subst,
-.hljs-title,
-.hljs-emphasis,
-.hljs-type,
-.hljs-preprocessor,
-.hljs-pragma,
-.ruby .hljs-class .hljs-parent,
-.hljs-built_in,
-.django .hljs-template_tag,
-.django .hljs-variable,
-.smalltalk .hljs-class,
-.django .hljs-filter .hljs-argument,
-.smalltalk .hljs-localvars,
-.smalltalk .hljs-array,
-.hljs-attr_selector,
-.hljs-pseudo,
-.hljs-addition,
-.hljs-stream,
-.hljs-envvar,
-.apache .hljs-tag,
-.apache .hljs-cbracket,
-.tex .hljs-command,
-.hljs-prompt,
-.hljs-name {
-  color: #2AA198;
-  font-weight: bold
-}
-
-.hljs-comment,
-.hljs-annotation,
-.smartquote,
-.hljs-blockquote,
-.hljs-horizontal_rule,
-.hljs-decorator,
-.hljs-pi,
-.hljs-doctype,
-.hljs-deletion,
-.hljs-shebang,
-.apache .hljs-sqbracket,
-.tex .hljs-formula {
-  color: #008080;
-  font-style: italic
-}
-
-.hljs-keyword,
-.hljs-literal,
-.css .hljs-id,
-.hljs-doctag,
-.hljs-title,
-.hljs-header,
-.hljs-type,
-.vbscript .hljs-built_in,
-.rsl .hljs-built_in,
-.smalltalk .hljs-class,
-.diff .hljs-header,
-.hljs-chunk,
-.hljs-winutils,
-.bash .hljs-variable,
-.apache .hljs-tag,
-.tex .hljs-special,
-.hljs-request,
-.hljs-status {
-  font-weight: bold;
-}
-
-.coffeescript .javascript,
-.javascript .xml,
-.tex .hljs-formula,
-.xml .javascript,
-.xml .vbscript,
-.xml .css,
-.xml .hljs-cdata {
-  opacity: 1;
-}
 
 /* style.css */
 
@@ -260,16 +131,21 @@ a {
 a:visited {
   color: #989898;
 }
+
 code {
-  margin: 0 2px;
-  color: #e96900;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f8f8ff;
+  -webkit-text-size-adjust: none;
+  color: #000000;
   padding: 3px 5px;
   font-size: 0.8em;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  background-color: #f8f8f8;
-}
+} 
+
 .outer {
   max-width: 1320px;
   margin: 0 auto;
@@ -2201,6 +2077,7 @@ ol.toc {
 .ins-section .ins-search-item.active .ins-search-preview {
   color: #fff;
 }
+
 .highlight {
   margin: 0px;
   display: block;
@@ -2231,9 +2108,10 @@ ol.toc {
 .article-entry .highlight .line {
   height: 1.6em;
 }
+
 .highlight {
-  color: #ddd;
-  background: #272822;
+  color: #000000;
+  background: #f8f8ff;
 }
 .highlight .code .tag,
 .highlight .code .keyword,
@@ -2253,7 +2131,8 @@ ol.toc {
 .highlight .code .symbol,
 .highlight .code .regexp,
 .highlight .code .link {
-  color: #bf79db;
+    color: #2AA198;
+  font-weight: bold;
 }
 .highlight .code .string,
 .highlight .code .bullet,
@@ -2270,13 +2149,14 @@ ol.toc {
 .highlight .code .variable,
 .highlight .code .template-tag,
 .highlight .code .template-variable {
-  color: #a6e22e;
+  color: #f92672;
 }
 .highlight .code .comment,
 .highlight .code .quote,
 .highlight .code .deletion,
 .highlight .code .meta {
-  color: #75715e;
+  color: #008080;
+  font-style: italic
 }
 .highlight .code .keyword,
 .highlight .code .selector-tag,
@@ -2287,7 +2167,7 @@ ol.toc {
 .highlight .code .type,
 .highlight .code .selector-id {
   font-weight: bold;
-}
+} 
 
 
 /* Personnalisation twitter time-line */
@@ -2301,3 +2181,26 @@ ol.toc {
   display: block;
 }
 
+
+
+.main-nav-trad {
+display: inline-block;
+line-height: 40px;
+padding-left:20px;
+padding-right:20px;
+padding-bottom:0px;
+padding-top:0px;
+float: left;
+font-weight:bold;
+background: #2AA198;
+-webkit-border-radius:20px;
+border-radius: 20px;
+-webkit-transition: 0.0s ease;
+  -moz-transition: 0.0s ease;
+  -ms-transition: 0.0s ease;
+  transition: 0.0s ease;
+}
+
+.main-nav-trad:hover {
+  background: #FFFFFF;
+}

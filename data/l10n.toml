@@ -1,21 +1,21 @@
 [articles]
-    read_more = "En savoir plus..."
+    read_more = ""
     words = "mots"
-    readingtime = "minutes à perdre"
-    share = "Partager"
-    comments = "Commentaires"
+    readingtime = ""
+    share = ""
+    comments = ""
 
 # Linked older/newer posts at the bottom of each one
 [articles.linked_posts]
-    older = "Articles précédents"
-    newer = "Articles suivants"
+    older = ""
+    newer = ""
 
 [search]
-    placeholder = "Rechercher"
+    placeholder = ""
 
 [pagination]
-    previous = "Précédent"
-    next = "Suivant"
+    previous = ""
+    next = ""
 
 [profile]
     follow_button = "@antuki13"

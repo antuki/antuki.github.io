@@ -16,7 +16,9 @@
             {{ .WordCount }}
             {{ with .Site.Data.l10n.articles.words }}{{.}}{{end}}--> <!-- nombre de mots -->
             &middot;
-            {{ .ReadingTime }}
+            <!--ajout traduction -->
+             {{ i18n "readingTime" .ReadingTime }}
+             <!--ajout traduction -->
             {{ with .Site.Data.l10n.articles.readingtime }}{{.}}{{end}}
         </div>
         {{ end }}
