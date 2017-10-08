@@ -11,15 +11,20 @@
    <!-- Multilanguage -->
           {{ range $i, $e := .Translations }}     
               {{ if eq $e.Language.LanguageName "English" }}
-              <a class = "main-nav-trad" href="http://antuki.github.io/en">EN</a>  
+              <a class = "main-nav-trad"href="{{ printf "en" | relLangURL }}">EN</a>  
               {{ else }}  
-              <a class = "main-nav-trad" href="http://antuki.github.io/">FR</a>
+              <a class = "main-nav-trad" href="{{ .Site.BaseURL }}">FR</a>
               {{ end}}
               {{ end}}
   <!-- Multilanguage -->
-          {{ range .Site.Menus.main }}
+  <!-- Modif navbar -->
+          <!--{{ range .Site.Menus.main }}
           <a class="main-nav-link" href="{{ .URL | relLangURL  }}">{{ .Name }}</a>
-          {{ end }}
+          {{ end }}-->
+  <a class="main-nav-link" href="{{ .Site.BaseURL | relLangURL  }}">{{ i18n "navbar_blog" }}</a>
+  <a class="main-nav-link" href="{{ printf "packages" | relLangURL }}">{{ i18n "navbar_packages" }}</a>
+  <a class="main-nav-link" href="{{ printf "apropos" | relLangURL }}">{{ i18n "navbar_about" }}</a>
+ <!-- Modif navbar -->
  </nav>
           
         <nav id="sub-nav">
@@ -32,7 +37,8 @@
             <!--ajout traduction à la place de "{{with .Site.Data.l10n.search.placeholder}}{{.}}{{end}}" --> <input type="search" name="q" class="search-form-input" placeholder={{ i18n "placeholder" }}> <!--ajout traduction -->
               <button type="submit" class="search-form-submit">
               </button>
-              <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}" />
+              <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL | absURL }}"
+ />
          </form>
         </div>
     </div>
@@ -41,26 +47,28 @@
     <table class="menu outer">
       <tbody>
           <tr>
-            
-            
           <!-- Multilanguage -->
           {{ range $i, $e := .Translations }}     
               {{ if eq $e.Language.LanguageName "English" }}
-              <td><a class = "main-nav-trad" href="http://antuki.github.io/en">EN</a></td>  
+              <td><a class = "main-nav-trad"href="{{ printf "en" | relLangURL }}">EN</a></td>  
               {{ else }}  
-              <td><a class = "main-nav-trad" href="http://antuki.github.io/">FR</a></td>
+              <td><a class = "main-nav-trad" href="{{ .Site.BaseURL }}">FR</a></td>
               {{ end}}
               {{ end}}
-          <!-- Multilanguage -->
-          {{ range .Site.Menus.main }}
-          <td><a class="main-nav-link" href="{{ .URL | relLangURL}}">{{ .Name }}</a></td>
-          {{ end }}
+  <!-- Multilanguage -->
+  <!-- Modif navbar -->
+          <!--{{ range .Site.Menus.main }}
+          <a class="main-nav-link" href="{{ .URL | relLangURL  }}">{{ .Name }}</a>
+          {{ end }}-->
+  <td><a class="main-nav-link" href="{{ .Site.BaseURL | relLangURL  }}">{{ i18n "navbar_blog" }}</a></td>
+  <td><a class="main-nav-link" href="{{ printf "packages" | relLangURL }}">{{ i18n "navbar_packages" }}</a></td>
+  <td><a class="main-nav-link" href="{{ printf "apropos" | relLangURL }}">{{ i18n "navbar_about" }}</a></td>
+ <!-- Modif navbar -->
           <td>
              <!--ajout traduction à la place de "Search" -->
           <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-          <input type="search" name="q" class="search-form-input" placeholder= {{ i18n "placeholder" }}> <!--ajout traduction -->
-          
-          <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}" />
+          <input type="search" name="q" class="search-form-input" placeholder= {{ i18n "placeholder" }}> <!--ajout traduction + ci-dessous : absURL et aussi côté non tablette-->
+          <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL | absURL }}" />
           </form>
         </td>
       </tr>

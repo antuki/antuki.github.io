@@ -29,3 +29,12 @@ other = "Newer post"
 [postsolder]
 other = "Older post"
 
+[navbar_blog]
+other = "Blog"
+
+[navbar_packages]
+other = "R Packages"
+
+[navbar_about]
+other = "About"
+

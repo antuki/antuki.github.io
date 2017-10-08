@@ -1,0 +1,36 @@
+﻿---
+title:  "First post full of love :blue_heart: thanks to emojifont package"
+author: ~
+date: '2017-10-08'
+slug: 
+categories: []
+tags: [R fun, R packages, DataViz]
+banner: ''
+images: []
+menu: ''
+description : ''
+---
+
+
+
+<p>A first article to celebrate the creation of this blog thanks to <a href="//%20gohugo.io">Hugo</a> and <a href="https://github.com/rstudio/blogdown">blogdown</a>. I can now create posts (in French and / or English) in one click from R.</p>
+<p>It is also an opportunity to share with you my discovery of the <a href="https://cran.r-project.org/web/packages/emojifont/vignettes/emojifont.html">emojifont</a> package which allows to add small images to our ggplots. Thank you <a href="https://twitter.com/guangchuangyu">@guangchuangyu</a>!</p>
+<pre class="r"><code>#install.packages(&quot;emojifont&quot;)
+library(emojifont)</code></pre>
+<pre><code>## Warning: le package &#39;emojifont&#39; a été compilé avec la version R 3.4.2</code></pre>
+<pre><code>## &#39;font.add()&#39; is now renamed to &#39;font_add()&#39;
+## The old version still works, but consider using the new function in future code</code></pre>
+<pre><code>## &#39;showtext.auto()&#39; is now renamed to &#39;showtext_auto()&#39;
+## The old version still works, but consider using the new function in future code</code></pre>
+<pre class="r"><code>library(ggplot2)
+emoji(&#39;blue_heart&#39;)</code></pre>
+<pre><code>## [1] &quot;&lt;f0&gt;&lt;U+009F&gt;&lt;U+0092&gt;&lt;U+0099&gt;&quot;</code></pre>
+<pre class="r"><code>t= seq(-1, 1, length=50)
+x=cos(t)*sin(t)*log(abs(t))
+y=sqrt(abs(t))*cos(t)
+#windows()
+ggplot() + geom_emoji(&#39;blue_heart&#39;, x=x, y=y, size=10, color=&quot;#00BCF2&quot;)</code></pre>
+<p><img src="/articles/2017-10-08_emojifont.en_files/figure-html/emojifont1-1.png" width="672" /></p>
+<!--more-->
+<p>It was also the occasion for me to revise a bit my math course on parametric curves …</p>
+<p>I really hope that many packages like this one will see the day to allow us to make even better data visualization with R!</p>

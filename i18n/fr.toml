@@ -28,3 +28,12 @@ other = "Article suivant"
 
 [postsolder]
 other = "Article précédent"
+
+[navbar_blog]
+other = "Blog"
+
+[navbar_packages]
+other = "Packages R"
+
+[navbar_about]
+other = "À propos"
