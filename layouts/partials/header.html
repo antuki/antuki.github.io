@@ -8,23 +8,18 @@
           <span class="site-title">{{ .Site.Title }}</span>
       </a>
 <nav id="main-nav">
-   <!-- Multilanguage -->
-          {{ range $i, $e := .Translations }}     
-              {{ if eq $e.Language.LanguageName "English" }}
-              <a class ="main-nav-trad" href="{{ printf "en" | relLangURL }}">EN</a>  
-              {{ else }}  
-              <a class ="main-nav-trad" href="{{ .Site.BaseURL }}">FR</a>
-              {{ end}}
-              {{ end}}
   <!-- Multilanguage -->
   <!-- Modif navbar -->
-          <!--{{ range .Site.Menus.main }}
-          <a class="main-nav-link" href="{{ .URL | relLangURL  }}">{{ .Name }}</a>
-          {{ end }}-->
+  {{ range $i, $e := .Translations }}     
+  {{ if eq $e.Language.LanguageName "English" }}
+  <a class="main-nav-trad" href="{{ printf "en" | relLangURL }}">EN </a>  
+  {{ else }}  
+  <a class="main-nav-trad" href="{{ .Site.BaseURL }}">FR </a>
+  {{ end }}
+  {{ end }}
   <a class="main-nav-link" href="{{ .Site.BaseURL | relLangURL  }}">{{ i18n "navbar_blog" }}</a>
   <a class="main-nav-link" href="{{ printf "packages" | relLangURL }}">{{ i18n "navbar_packages" }}</a>
   <a class="main-nav-link" href="{{ printf "apropos" | relLangURL }}">{{ i18n "navbar_about" }}</a>
- <!-- Modif navbar -->
  </nav>
           
         <nav id="sub-nav">
@@ -47,19 +42,16 @@
     <table class="menu outer">
       <tbody>
           <tr>
-          <!-- Multilanguage -->
-          {{ range $i, $e := .Translations }}     
+             <!-- Multilanguage -->
+             <!-- Modif navbar -->
+         {{ range $i, $e := .Translations }}     
               {{ if eq $e.Language.LanguageName "English" }}
               <td><a class="main-nav-trad" href="{{ printf "en" | relLangURL }}">EN</a></td>  
               {{ else }}  
               <td><a class="main-nav-trad" href="{{ .Site.BaseURL }}">FR</a></td>
-              {{ end}}
-              {{ end}}
-  <!-- Multilanguage -->
-  <!-- Modif navbar -->
-          <!--{{ range .Site.Menus.main }}
-          <a class="main-nav-link" href="{{ .URL | relLangURL  }}">{{ .Name }}</a>
-          {{ end }}-->
+              {{ end }}
+              {{ end }}
+ 
   <td><a class="main-nav-link" href="{{ .Site.BaseURL | relLangURL  }}">{{ i18n "navbar_blog" }}</a></td>
   <td><a class="main-nav-link" href="{{ printf "packages" | relLangURL }}">{{ i18n "navbar_packages" }}</a></td>
   <td><a class="main-nav-link" href="{{ printf "apropos" | relLangURL }}">{{ i18n "navbar_about" }}</a></td>

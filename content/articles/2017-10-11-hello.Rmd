@@ -9,7 +9,7 @@ banner: ''
 description: ''
 images: []
 menu: ''
-draft : TRUE
+draft: TRUE
 ---
 
 
