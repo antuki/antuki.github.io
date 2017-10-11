@@ -1,11 +1,11 @@
-+++
-title = "À propos"
-disable_comments = false
-banner = "banners/banner_apropos.png"
-nodateline = true
-+++
+---
+banner: banners/banner_apropos.png
+disable_comments: false
+nodateline: true
+title: À propos
+---
 
-  Bonjour ! 
+Bonjour ! 
   
   Je m'appelle Kim, je suis statisticienne et j'aime beaucoup faire du R à mes heures perdues.
   

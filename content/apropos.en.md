@@ -1,9 +1,9 @@
-+++
-title = "À propos"
-disable_comments = false
-banner = "banners/banner_apropos.png"
-nodateline = true
-+++
+---
+banner: banners/banner_apropos.png
+disable_comments: false
+nodateline: true
+title: À propos
+---
 
 hello ! 
   

@@ -11,9 +11,9 @@
    <!-- Multilanguage -->
           {{ range $i, $e := .Translations }}     
               {{ if eq $e.Language.LanguageName "English" }}
-              <a class = "main-nav-trad"href="{{ printf "en" | relLangURL }}">EN</a>  
+              <a class ="main-nav-trad" href="{{ printf "en" | relLangURL }}">EN</a>  
               {{ else }}  
-              <a class = "main-nav-trad" href="{{ .Site.BaseURL }}">FR</a>
+              <a class ="main-nav-trad" href="{{ .Site.BaseURL }}">FR</a>
               {{ end}}
               {{ end}}
   <!-- Multilanguage -->
@@ -50,9 +50,9 @@
           <!-- Multilanguage -->
           {{ range $i, $e := .Translations }}     
               {{ if eq $e.Language.LanguageName "English" }}
-              <td><a class = "main-nav-trad"href="{{ printf "en" | relLangURL }}">EN</a></td>  
+              <td><a class="main-nav-trad" href="{{ printf "en" | relLangURL }}">EN</a></td>  
               {{ else }}  
-              <td><a class = "main-nav-trad" href="{{ .Site.BaseURL }}">FR</a></td>
+              <td><a class="main-nav-trad" href="{{ .Site.BaseURL }}">FR</a></td>
               {{ end}}
               {{ end}}
   <!-- Multilanguage -->

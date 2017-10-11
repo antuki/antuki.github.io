@@ -1,8 +1,8 @@
-+++
-title = "R Packages"
-disable_comments = false
-nodateline = true
-+++
+---
+disable_comments: false
+nodateline: true
+title: R Packages
+---
 
 [COGugaison](https://antuki.github.io/COGugaison/) : an R package for manipulating french spatial databases produced at different dates
 
