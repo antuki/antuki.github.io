@@ -2,7 +2,7 @@
 other = "Home"
 
 [readingTime]
-one = "One minute read"
+one = "1 minute read"
 other = "{{.Count}} minutes read"
 
 [read_more]

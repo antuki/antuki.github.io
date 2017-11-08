@@ -32,7 +32,7 @@
             <!--ajout traduction à la place de "{{with .Site.Data.l10n.search.placeholder}}{{.}}{{end}}" --> <input type="search" name="q" class="search-form-input" placeholder={{ i18n "placeholder" }}> <!--ajout traduction -->
               <button type="submit" class="search-form-submit">
               </button>
-              <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL | absURL }}"
+              <input type="hidden" name="sitesearch" value="https://antuki.github.io"
  />
          </form>
         </div>
@@ -60,7 +60,7 @@
              <!--ajout traduction à la place de "Search" -->
           <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
           <input type="search" name="q" class="search-form-input" placeholder= {{ i18n "placeholder" }}> <!--ajout traduction + ci-dessous : absURL et aussi côté non tablette-->
-          <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL | absURL }}" />
+          <input type="hidden" name="sitesearch" value="https://antuki.github.io" />
           </form>
         </td>
       </tr>
