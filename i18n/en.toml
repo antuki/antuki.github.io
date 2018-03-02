@@ -35,6 +35,9 @@ other = "Blog"
 [navbar_packages]
 other = "R Packages"
 
+[navbar_presentations]
+other = "Talks"
+
 [navbar_about]
 other = "About"
 

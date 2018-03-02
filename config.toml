@@ -22,7 +22,6 @@ preserveTaxonomyNames = true
 # don't canonify URLs so can use http://antuki.github.io/ or https://antuki.github.io/
 canonifyURLs = false
 rssLimit = 30
-# NEW
 # include content marked as draft
 buildDrafts = false
 # Enable Emoji emoticons support for page content; see emoji-cheat-sheet.com

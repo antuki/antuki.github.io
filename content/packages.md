@@ -10,4 +10,6 @@ Le découpage des territoires français, en particulier les communes, n’est pa
 
 Ce package R a alors pour objectif global de manipuler des données communales produites à différents millésimes et de les agréger à différents niveaux supra-communaux. 
 
-Ce package est nouveau et seulement documenté en français, il n'est alors pas complètement abouti et a besoin d'être testé par des utilisateurs de données géographiques. 
+[CARTElette](https://antuki.github.io/CARTElette/) : Ce répertoire vient en complément du package COGugaison. Il s'agit ici de créer des couches cartographiques (communales et supra-communales) qui correspondent à la situation du découpage des territoires français (communes et niveaux supra-communaux, France et Outre-mer) au 01 janvier de chaque année (date de référence du code officiel géographique).
+
+Un package R est aussi adossé à ce repository. Il permet à ce stade de charger la couche cartographique adaptée à vos données en indiquant l'année du code officiel géographique (COG) ainsi que le niveau géographique (communal ou supra-communal) souhaités.

@@ -19,6 +19,7 @@
   {{ end }}
   <a class="main-nav-link" href="{{ .Site.BaseURL | relLangURL  }}">{{ i18n "navbar_blog" }}</a>
   <a class="main-nav-link" href="{{ printf "packages" | relLangURL }}">{{ i18n "navbar_packages" }}</a>
+  <a class="main-nav-link" href="{{ printf "presentations" | relLangURL }}">{{ i18n "navbar_presentations" }}</a>
   <a class="main-nav-link" href="{{ printf "apropos" | relLangURL }}">{{ i18n "navbar_about" }}</a>
  </nav>
           
@@ -54,6 +55,7 @@
  
   <td><a class="main-nav-link" href="{{ .Site.BaseURL | relLangURL  }}">{{ i18n "navbar_blog" }}</a></td>
   <td><a class="main-nav-link" href="{{ printf "packages" | relLangURL }}">{{ i18n "navbar_packages" }}</a></td>
+  <td><a class="main-nav-link" href="{{ printf "presentations" | relLangURL }}">{{ i18n "navbar_presentations" }}</a></td>
   <td><a class="main-nav-link" href="{{ printf "apropos" | relLangURL }}">{{ i18n "navbar_about" }}</a></td>
  <!-- Modif navbar -->
           <td>
