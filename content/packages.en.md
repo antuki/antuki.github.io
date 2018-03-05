@@ -12,6 +12,6 @@ The COGugaison R package is based on the french official geographic code (COG) p
 
 This package is new and only documented in french. It is not completed and needs to be tested by users of French spatial databases. 
 
-[CARTElette](https://antuki.github.io/CARTElette/) : This repository is a complement to the COGugaison package. The goal is to create geographical layers that correspond to the situation of the division of the French territories (France and Overseas) on the first January of each year (date of reference of the official geographic code).
+[CARTElette](https://github.com/antuki/CARTElette) : This repository is a complement to the COGugaison package. The goal is to create geographical layers that correspond to the situation of the division of the French territories (France and Overseas) on the first January of each year (date of reference of the official geographic code).
 
 An R package is also included in this repository. At this stage, it allows you to load the layer adapted to your data by indicating the year of the official geographic code (COG) used as well as the geographical level desired.
