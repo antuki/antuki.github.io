@@ -7,7 +7,7 @@ title: Talks
 Below my different talks. Clic on the image to see the slides !
 
 ## Tutorial [Geovisualization and Spatial Analysis](https://github.com/antuki/Tutorial_Geovisualisation_MassiveSpatialData) september 2018
-for Summer school Massive spatial data of the LabEx DynamiTe with Timothée Giraud 
+for Summer school Massive spatial data of the LabEx DynamiTe with TimothÃ©e Giraud 
 
 <center><a href="https://antuki.github.io/Tutorial_Geovisualisation_MassiveSpatialData/lecture/lecture.html"><img src="https://antuki.github.io/img/Presentation_3a.jpg" width="400"></a></center>
 <center><a href="https://antuki.github.io/Tutorial_Geovisualisation_MassiveSpatialData/exercises/exercises.html"><img src="https://antuki.github.io/img/Presentation_3b.jpg" width="400"></a></center>
