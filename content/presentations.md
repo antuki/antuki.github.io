@@ -1,4 +1,4 @@
-﻿---
+---
 disable_comments: false
 nodateline: true
 title: Présentations
@@ -6,11 +6,14 @@ title: Présentations
 
 Ci-dessous mes différentes interventions. Cliquez sur les images pour voir les diaporamas !
 
-## Travaux dirigés [Géovisualisation et analyse spatiale](https://github.com/antuki/Tutorial_Geovisualisation_MassiveSpatialData) septembre 2018
-pour l'école d'été Massive spatial data du LabEx DynamiTe avec Timothée Giraud 
+## Travaux dirigés [Données spatiales et cartography](https://github.com/antuki/Tutorial_Geovisualisation_MassiveSpatialData) pour satRday Paris février 2019
 
-<center><a href="https://antuki.github.io/Tutorial_Geovisualisation_MassiveSpatialData/lecture/lecture.html"><img src="https://antuki.github.io/img/Presentation_3a.jpg" width="400"></a></center>
-<center><a href="https://antuki.github.io/Tutorial_Geovisualisation_MassiveSpatialData/exercises/exercises.html"><img src="https://antuki.github.io/img/Presentation_3b.jpg" width="400"></a></center>
+<center><a href="https://antuki.github.io/satRday2019_workshop/lecture/lecture.html"><img src="https://antuki.github.io/img/Presentation_3a.jpg" width="400"></a></center>
+<center><a href="https://antuki.github.io/satRday2019_workshop/exercises/exercises.html"><img src="https://antuki.github.io/img/Presentation_3b.jpg" width="400"></a></center>
+
+Avec Etienne Côme et Timothée Giraud. 
+
+Version actualisée des [travaux dirigés](https://github.com/antuki/Tutorial_Geovisualisation_MassiveSpatialData) de septembre 2018 pour l'école d'été Massive spatial data du LabEx DynamiTe : [cours](https://antuki.github.io/Tutorial_Geovisualisation_MassiveSpatialData/lecture/lecture.html) et [exercices](https://antuki.github.io/Tutorial_Geovisualisation_MassiveSpatialData/exercises/exercises.html).
 
 ## 7èmes rencontres R juillet 2018
 

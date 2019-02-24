@@ -40,20 +40,19 @@ enableEmoji = true
 
 [Languages.fr]
 languageName = "Français"
-bio = "Statisticienne et  #RLadies :princess: pour ceux qui connaissent. :blue_heart: #RStats #RStatsFR  🇫🇷 Intéressée par la  #SpatialAnalysis et la #DataViz :arrow_right: #COGugaison :new: #RPackage"
-
+ bio = "Statisticienne et  :princess: #RLadies :purple_heart: #RStats #RStatsFR  🇫🇷   S'intéresse aux #statistics :1234: #dataviz :bar_chart: et #SpatialAnalysis :earth_asia: Voir les :package: packages :arrow_right:  #COGugaison & #CARTElette  "
+ 
 [Languages.en]
 languageName = "English" 
- bio = "Statistician and  #RLadies :princess: for those in the know. :blue_heart: #RStats #RStatsFR  🇫🇷 Interested in  #SpatialAnalysis and  #DataViz :arrow_right: #COGugaison :new: #RPackage"
-
+ bio = "Statistician and  :princess: #RLadies :purple_heart: #RStats #RStatsFR  🇫🇷   Interested in #statistics :1234: #dataviz :bar_chart: and #SpatialAnalysis :earth_asia: See  :arrow_right:  #COGugaison & #CARTElette :package: packages "
 
 [params]
     # Tell me who you are
     author = "antuki"
     location = "Paris, France"
     copyright  = "antuki. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice) with modifications by [antuki](https://antuki.github.io)."
-    avatar = "logo.jpg"
-    logo = "logo.jpg"
+    avatar = "logo.png"
+    logo = "logo.png"
     fullURL = "//antuki.github.io"
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
