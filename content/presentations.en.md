@@ -1,10 +1,14 @@
----
+﻿---
 disable_comments: false
 nodateline: true
 title: Talks
 ---
 
 Below my different talks. Clic on the image to see the slides !
+
+## useR! conference Toulouse july 2019
+
+<center><a href="https://antuki.github.io/slides/20190710_userToulouse/20190710_userToulouse.html"><img src="https://antuki.github.io/img/Presentation_3.jpg" width="400"></a></center>
 
 ## Tutorial [Spatial data and cartography](https://github.com/antuki/Tutorial_Geovisualisation_MassiveSpatialData) for satRday Paris february 2019
 

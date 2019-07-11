@@ -1,10 +1,14 @@
----
+﻿---
 disable_comments: false
 nodateline: true
 title: Présentations
 ---
 
 Ci-dessous mes différentes interventions. Cliquez sur les images pour voir les diaporamas !
+
+## conférence useR! Toulouse juillet 2019
+
+<center><a href="https://antuki.github.io/slides/20190710_userToulouse/20190710_userToulouse.html"><img src="https://antuki.github.io/img/Presentation_3.jpg" width="400"></a></center>
 
 ## Travaux dirigés [Données spatiales et cartography](https://github.com/antuki/Tutorial_Geovisualisation_MassiveSpatialData) pour satRday Paris février 2019
 
