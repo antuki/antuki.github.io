@@ -13,8 +13,8 @@ Bonjour !
   
   Mon CV : 
   
-  - [Version HTML](https://antuki.github.io/slides/CV_Short/CV2.html)
-  - [Version PDF](https://antuki.github.io/slides/CV_Short/CV2.pdf)
+  - [Version HTML](https://antuki.github.io/slides/CV/CV4.html)
+  - [Version PDF](https://antuki.github.io/slides/CV/CV_ANTUNEZ_online.pdf)
 
 
   
@@ -22,6 +22,3 @@ Bonjour !
   
 © croquis de [Bénédicte Roullier](https://twitter.com/roullierb)
  
- 
- [Mon CV](https://antuki.github.io/slides/CV_Short/CV2.html)
-
