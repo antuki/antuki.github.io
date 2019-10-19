@@ -6,7 +6,7 @@ date: 2019-10-19
 description: 
 images: []
 menu: ""
-slug: emojifont
+slug: internship
 title: 'Looking for a summer 2020 internship'
 ---
 
