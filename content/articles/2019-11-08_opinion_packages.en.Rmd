@@ -1,0 +1,25 @@
+---
+author: null
+banner: ""
+categories: []
+date: 2019-11-08
+description: 
+images: []
+menu: ""
+slug: opinion_package
+title: "Your opinion of the packages COGugaison and CARTElette"
+---
+
+
+![](https://framaforms.org/sites/default/files/forms/img/both_0.png)
+
+This survey aims to better know the users of the two R packages COGugaison and CARTElette, which make possible to manage the evolution of administrative divisions over time in France, in databases and map layers. 
+
+Thank you very much for your participation which will contribute to the improvement of these packages!
+
+<a href="https://framaforms.org/cogugaison-cartelette-votre-opinion-your-opinion-1573236259">Access the form</a>
+
+<!--more-->
+
+
+<iframe src="https://framaforms.org/cogugaison-cartelette-votre-opinion-your-opinion-1573236259" width="100%" height="800" border="0" ></iframe>  
