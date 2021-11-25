@@ -1,4 +1,4 @@
-﻿---
+---
 disable_comments: false
 nodateline: true
 title: Talks
@@ -6,9 +6,11 @@ title: Talks
 
 Below my different talks. Clic on the image to see the slides !
 
-## useR! conference Toulouse july 2019
+## uRos conference online november 2021
 
-<center><a href="https://antuki.github.io/slides/20190710_userToulouse/20190710_userToulouse.html"><img src="https://antuki.github.io/img/Presentation_3.jpg" width="400"></a></center>
+<center><a href="https://antuki.github.io/slides/20211124_uros/20211124_uros.html"><img src="https://antuki.github.io/img/Presentation_3.jpg" width="400"></a></center>
+
+Updated version of the presentation at the [useR! conference conference](https://antuki.github.io/slides/20190710_userToulouse/20190710_userToulouse.html) in Toulouse, France, in november 2021.
 
 ## Tutorial [Spatial data and cartography](https://github.com/antuki/Tutorial_Geovisualisation_MassiveSpatialData) for satRday Paris february 2019
 
