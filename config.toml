@@ -4,7 +4,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #baseurl = "//antuki.github.io/"
 baseurl = "/"
 DefaultContentLanguage = "fr"
-publishdir = "../antuki.github.io"
+#publishdir = "../antuki.github.io"
 languageCode = "fr"
 title = "antuki.github.io"
 # Enable comments by entering your Disqus shortname
@@ -120,4 +120,10 @@ mainSections = ["articles"]
     recent_articles = false
     categories = false
     tags = true
-tag_cloud = false
+    tag_cloud = false
+
+# Ajouter les images dans les .md
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

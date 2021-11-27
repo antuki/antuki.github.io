@@ -1,4 +1,4 @@
-{{ $paginator := .Paginate (where .Data.Pages "Section" "in" .Site.Params.mainSections) }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 {{ range $paginator.Pages }}
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -10,19 +10,14 @@
 
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
-          <p>
+            <p>
  <!--Personnalisation du summary-->
-            {{ with .Description }}
-            {{ $.Scratch.Set "summary" (markdownify .) }}
-            {{ else }}
-            {{ $.Scratch.Set "summary" (.Content | replaceRE "(?m)(?s:<!--more-->.*$)" "" | markdownify | emojify) }}
-            {{ end }}
-            {{ $.Scratch.Get "summary" }}
+  {{ .Description | default .Summary  | emojify }} 
 <!--Personnalisation du summary-->
             </p>
             <p class="article-more-link">
                 <a href="{{ .Permalink }}">
-                  <!--ajout traduction -->
+                         <!--ajout traduction -->
              {{ i18n "read_more" }}
              <!--ajout traduction -->
                     {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
