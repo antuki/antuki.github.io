@@ -1,71 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>antuki.github.io</title>
-    <link>//antuki.github.io/</link>
+    <link>/</link>
     <description>Recent content on antuki.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>antuki. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Sat, 20 May 2017 12:10:51 +0200</lastBuildDate>
-    
-	<atom:link href="//antuki.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Cheat Sheet</title>
-      <link>//antuki.github.io/post/markdown-cheat-sheet/</link>
-      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      <title>Votre opinion sur les packages COGugaison et CARTElette</title>
+      <link>/2019/11/08/opinion_package/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//antuki.github.io/post/markdown-cheat-sheet/</guid>
-      <description>&lt;p&gt;This note demonstrates some of what &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is capable of doing.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>/2019/11/08/opinion_package/</guid>
+      <description>Cette enquête a pour objectif de mieux connaître les utilisateurs des deux packages R COGugaison et CARTElette qui permettent de gérer l’évolution des divisions administratives dans le temps en France dans les bases de données et couches cartographiques.
+Merci beaucoup pour votre participation qui contribuera à l’amélioration de ces packages !
+</description>
     </item>
     
     <item>
-      <title>Using the gallery shortcode</title>
-      <link>//antuki.github.io/post/using-the-gallery-shortcode/</link>
-      <pubDate>Sat, 20 May 2017 12:00:23 +0200</pubDate>
+      <title>A la recherche d&#39;un stage pour l&#39;été 2020</title>
+      <link>/2019/10/19/internship/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//antuki.github.io/post/using-the-gallery-shortcode/</guid>
-      <description>&lt;p&gt;This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.&lt;/p&gt;
+      <guid>/2019/10/19/internship/</guid>
+      <description>🎤Looking for a 2020 Summer #internship in #DataScience. Back in school @ENSAEparis after five years of professional experience in French official statistics. Preferably in 🇺🇸🇨🇦🇦🇺 Many personal #rstats projects on my github and LinkedIn. https://t.co/NZP2I7o2LT pic.twitter.com/8PXNbCUFvV
+&amp;mdash; antuki (@antuki13) September 21, 2019  Après près de 5 ans d’expérience professionnelle dans la statistique publique, je retourne quelques temps sur les bancs de l’école suite à l’obtention du concours d’administrateur statisticien de l’Insee.</description>
+    </item>
+    
+    <item>
+      <title>Premier article plein d&#39;amour :blue_heart: grâce au package emojifont</title>
+      <link>/2017/10/08/emojifont/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/08/emojifont/</guid>
+      <description>
 
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Formulas with MathJax</title>
-      <link>//antuki.github.io/post/formulas-with-mathjax/</link>
-      <pubDate>Sat, 20 May 2017 11:58:06 +0200</pubDate>
-      
-      <guid>//antuki.github.io/post/formulas-with-mathjax/</guid>
-      <description>&lt;p&gt;Mathematical equations in form of LaTeX or MathML code can be rendered with the support of &lt;a href=&#34;https://www.mathjax.org&#34;&gt;MathJax&lt;/a&gt;. MathML works out of the box. If you&amp;rsquo;re using LaTeX you need to wrap your equation with &lt;code&gt;$$&lt;/code&gt; as shown in the following example:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Un premier article pour fêter la création de ce blog grâce à &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; et &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt;. Je peux désormais créer des articles (en français et/ou anglais) en un clic depuis R.&lt;/p&gt;
+&lt;p&gt;C’est également l’occasion de partager avec vous ma découverte du package &lt;a href=&#34;https://cran.r-project.org/web/packages/emojifont/vignettes/emojifont.html&#34;&gt;emojifont&lt;/a&gt; qui permet de rajouter des petites images à nos ggplots. Merci à &lt;a href=&#34;https://twitter.com/guangchuangyu&#34;&gt;@guangchuangyu&lt;/a&gt; !&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;emojifont&amp;quot;)
+library(emojifont)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: le package &amp;#39;emojifont&amp;#39; a été compilé avec la version R 3.3.3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+emoji(&amp;#39;blue_heart&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;&amp;lt;f0&amp;gt;&amp;lt;U+009F&amp;gt;&amp;lt;U+0092&amp;gt;&amp;lt;U+0099&amp;gt;&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;t= seq(-1, 1, length=50)
+x=cos(t)*sin(t)*log(abs(t))
+y=sqrt(abs(t))*cos(t)
+#windows()
+ggplot() + geom_emoji(&amp;#39;blue_heart&amp;#39;, x=x, y=y, size=10, color=&amp;quot;#00BCF2&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/articles/2017-10-08_emojifont_files/figure-html/emojifont1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>How to add pages to the menu</title>
-      <link>//antuki.github.io/post/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Packages R</title>
+      <link>/packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//antuki.github.io/post/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  </description>
+      <guid>/packages/</guid>
+      <description>COGugaison est un package R permettant de manipuler des données communales produites à différents millésimes et les agréger à des niveaux supra-communaux.
+Le découpage des territoires français, en particulier les communes, n’est pas un phénomène immuable. Chaque année certaines communes changent de codes, ou bien de nom, fusionnent ou encore se divisent. Certains périmètres supra-communaux changent également, comme celui des cantons qui a été récemment redéfini. C’est à l’Insee que revient le suivi de ces changements afin d’établir chaque année le code officiel géographique (COG).</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>//antuki.github.io/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Présentations</title>
+      <link>/presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//antuki.github.io/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/presentations/</guid>
+      <description>Ci-dessous mes différentes interventions. Cliquez sur les images pour voir les diaporamas !
+conférence uRos en ligne novembre 2021 Version actualisée de la présentation à la conférence useR! à Toulouse en juillet 2019.
+Travaux dirigés Données spatiales et cartography pour satRday Paris février 2019 Avec Etienne Côme et Timothée Giraud.
+Version actualisée des travaux dirigés de septembre 2018 pour l&amp;rsquo;école d&amp;rsquo;été Massive spatial data du LabEx DynamiTe : cours et exercices.</description>
+    </item>
+    
+    <item>
+      <title>À propos</title>
+      <link>/apropos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/apropos/</guid>
+      <description>Bonjour !
+Je m&amp;rsquo;appelle Kim, je suis statisticienne et j&amp;rsquo;aime beaucoup faire du R à mes heures perdues.
+Ce blog a pour vocation de partager avec vous mes découvertes en stats et logiciels stats au fil du temps (certaines périodes étant certainement plus propices à la découverte que d&amp;rsquo;autres). Je compte, entre autres, faire de la pub aux développeurs et chercheurs qui attireront mon attention grâce à leurs packages super cools et vous indiquer comment récupérer des données sympas à manipuler !</description>
     </item>
     
   </channel>

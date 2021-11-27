@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Dealing with the change of administrative divisions over time with </title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Kim Antunez antuki antuki13" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <link href="libs/vis/vis.css" rel="stylesheet" />
+    <script src="libs/vis/vis.min.js"></script>
+    <script src="libs/visNetwork-binding/visNetwork.js"></script>
+    <link rel="stylesheet" href="antuki.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Dealing with the change of administrative divisions over time with <svg viewBox='0 0 581 512' style='height:1em;position:relative;display:inline-block;top:.1em;fill:white;' xmlns='http://www.w3.org/2000/svg'><path d='M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z'></path></svg>
+### Kim Antunez</br></br><svg viewBox='0 0 496 512' style='height:1em;position:relative;fill:white;display:inline-block;top:.1em;' xmlns='http://www.w3.org/2000/svg'><path d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'></path></svg> antuki</br><svg viewBox='0 0 448 512' style='height:1em;fill:white;position:relative;display:inline-block;top:.1em;' xmlns='http://www.w3.org/2000/svg'><path d='M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z'></path></svg> antuki13
+### uRos 2021 - Online event </br>24 November 2021
+
+---
+
+
+
+
+
+
+
+
+.pull-left[
+## Who am I?
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/avatar_antuki_v2_small.png" height="150px"&gt;&lt;/center&gt;
+]
+
+- Kim Antunez
+    * *Now* : civil servant for the French National Institute of Statistics (Insee)
+    
+    * *Before* : Student at ENSAE
+    
+    * *Before again* : worked for the French Observatory of territories (USER of spatial datasets)
+
+
+
+- **R packages** on how to deal with the change of administrative divisions over time, in the case of French territories. 
+
+    * [`COGugaison`](https://antuki.github.io/COGugasion/)
+
+    * [`CARTElette`](https://antuki.github.io/CARTElette/)
+
+---
+
+## Administrative divisions... 
+
+.left-column[
+&lt;img src="img/millefeuille2.png" height="60px"&gt;&lt;/img&gt;
+&lt;img src="img/millefeuille1.png" height="400px"&gt;
+]
+.right-column[
+&lt;center&gt;The French territorial « mille-feuille »&lt;/center&gt;&lt;/br&gt;
+&lt;center&gt;&lt;img src="img/carte_millefeuille_v2.png"&gt;&lt;/center&gt;
+]
+
+---
+## ... change over time
+&lt;center&gt;&lt;img src="img/map_fusions.png" height="500px"&gt;&lt;/center&gt;
+
+
+
+
+---
+
+## ... change over time
+
+The most annoying municipality of France!!!
+
+<div id="htmlwidget-e893cc3b41709360a692" style="width:100%;height:500px;" class="visNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e893cc3b41709360a692">{"x":{"nodes":{"id":["14010_1968","14067_1968","14234_1968","14295_1968","14314_1968","14363_1968","14447_1968","14472_1968","14624_1968","14697_1968","14624_1982","14697_2014","14081_2016","14099_2016","14331_2016","14433_2016","14450_2016","14472_2016","14489_2016","14580_2016","14616_2016","14654_2016","14688_2016","14729_2016","14750_2016","14081_1968","14099_1968","14331_1968","14433_1968","14450_1968","14489_1968","14580_1968","14616_1968","14654_1968","14654_2017","14688_1968","14729_1968","14750_1968","14624_1975","14697_1990","14472_2015","14654_2021"],"comm":["14010","14067","14234","14295","14314","14363","14447","14472","14624","14697","14624","14697","14081","14099","14331","14433","14450","14472","14489","14580","14616","14654","14688","14729","14750","14081","14099","14331","14433","14450","14489","14580","14616","14654","14654","14688","14729","14750","14624","14697","14472","14654"],"COG":["1968","1968","1968","1968","1968","1968","1968","1968","1968","1968","1982","2014","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","1968","1968","1968","1968","1968","1968","1968","1968","1968","2017","1968","1968","1968","1975","1990","2015","2021"],"label":["14010\n(1968)","14067\n(1968)","14234\n(1968)","14295\n(1968)","14314\n(1968)","14363\n(1968)","14447\n(1968)","14472\n(1968)","14624\n(1968)","14697\n(1968)","14624\n(1982)","14697\n(2014)","14081\n(2016)","14099\n(2016)","14331\n(2016)","14433\n(2016)","14450\n(2016)","14472\n(2016)","14489\n(2016)","14580\n(2016)","14616\n(2016)","14654\n(2016)","14688\n(2016)","14729\n(2016)","14750\n(2016)","14081\n(1968)","14099\n(1968)","14331\n(1968)","14433\n(1968)","14450\n(1968)","14489\n(1968)","14580\n(1968)","14616\n(1968)","14654\n(1968)","14654\n(2017)","14688\n(1968)","14729\n(1968)","14750\n(1968)","14624\n(1975)","14697\n(1990)","14472\n(2015)","14654\n(2021)"],"level":[1,1,1,1,1,1,1,1,1,1,3,5,7,7,7,7,7,7,7,7,7,7,7,7,7,1,1,1,1,1,1,1,1,1,8,1,1,1,2,4,6,9],"pop":["148","136","84","76","108","236","140","172","172","88","1452","1551","233","290","267","152","195","1579","240","102","378","3539","312","212","300","252","312","188","132","268","224","168","284","3644","7835","216","196","304","1510","1372","1574","7503"],"libgeo":["AMMEVILLE","BERVILLE","ECOTS","GARNETOT","GRANDMESNIL","LIEURY","MONTPINCON","NOTRE DAME DE FRESNAY","SAINT-MARTIN-DE-FRESNAY","TÔTES","OUDON","L'Oudon","Boissey","Bretteville-sur-Dives","Hiéville","Mittois","Montviette","L'Oudon","Ouville-la-Bien-Tournée","Saint-Georges-en-Auge","Sainte-Marguerite-de-Viette","Saint-Pierre-sur-Dives","Thiéville","Vaudeloges","Vieux-Pont-en-Auge","BOISSEY","BRETTEVILLE-SUR-DIVES","HIEVILLE","MITTOIS","MONTVIETTE","OUVILLE-LA-BIEN-TOURNEE","SAINT-GEORGES-EN-AUGE","SAINTE-MARGUERITE-DE-VIETTE","SAINT-PIERRE-SUR-DIVES","Saint-Pierre-en-Auge","THIEVILLE","VAUDELOGES","VIEUX-PONT-EN-AUGE","OUDON","OUDON","L'Oudon","Saint-Pierre-en-Auge"],"ratio":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"title":["<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14010&debut=0>14010<\/a> AMMEVILLE<\/b><br>Population : 148 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14067&debut=0>14067<\/a> BERVILLE<\/b><br>Population : 136 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14234&debut=0>14234<\/a> ECOTS<\/b><br>Population : 84 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14295&debut=0>14295<\/a> GARNETOT<\/b><br>Population : 76 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14314&debut=0>14314<\/a> GRANDMESNIL<\/b><br>Population : 108 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14363&debut=0>14363<\/a> LIEURY<\/b><br>Population : 236 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14447&debut=0>14447<\/a> MONTPINCON<\/b><br>Population : 140 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14472&debut=0>14472<\/a> NOTRE DAME DE FRESNAY<\/b><br>Population : 172 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14624&debut=0>14624<\/a> SAINT-MARTIN-DE-FRESNAY<\/b><br>Population : 172 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14697&debut=0>14697<\/a> TÔTES<\/b><br>Population : 88 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14624&debut=0>14624<\/a> OUDON<\/b><br>Population : 1452 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14697&debut=0>14697<\/a> L'Oudon<\/b><br>Population : 1551 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14081&debut=0>14081<\/a> Boissey<\/b><br>Population : 233 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14099&debut=0>14099<\/a> Bretteville-sur-Dives<\/b><br>Population : 290 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14331&debut=0>14331<\/a> Hiéville<\/b><br>Population : 267 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14433&debut=0>14433<\/a> Mittois<\/b><br>Population : 152 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14450&debut=0>14450<\/a> Montviette<\/b><br>Population : 195 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14472&debut=0>14472<\/a> L'Oudon<\/b><br>Population : 1579 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14489&debut=0>14489<\/a> Ouville-la-Bien-Tournée<\/b><br>Population : 240 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14580&debut=0>14580<\/a> Saint-Georges-en-Auge<\/b><br>Population : 102 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14616&debut=0>14616<\/a> Sainte-Marguerite-de-Viette<\/b><br>Population : 378 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14654&debut=0>14654<\/a> Saint-Pierre-sur-Dives<\/b><br>Population : 3539 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14688&debut=0>14688<\/a> Thiéville<\/b><br>Population : 312 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14729&debut=0>14729<\/a> Vaudeloges<\/b><br>Population : 212 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14750&debut=0>14750<\/a> Vieux-Pont-en-Auge<\/b><br>Population : 300 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14081&debut=0>14081<\/a> BOISSEY<\/b><br>Population : 252 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14099&debut=0>14099<\/a> BRETTEVILLE-SUR-DIVES<\/b><br>Population : 312 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14331&debut=0>14331<\/a> HIEVILLE<\/b><br>Population : 188 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14433&debut=0>14433<\/a> MITTOIS<\/b><br>Population : 132 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14450&debut=0>14450<\/a> MONTVIETTE<\/b><br>Population : 268 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14489&debut=0>14489<\/a> OUVILLE-LA-BIEN-TOURNEE<\/b><br>Population : 224 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14580&debut=0>14580<\/a> SAINT-GEORGES-EN-AUGE<\/b><br>Population : 168 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14616&debut=0>14616<\/a> SAINTE-MARGUERITE-DE-VIETTE<\/b><br>Population : 284 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14654&debut=0>14654<\/a> SAINT-PIERRE-SUR-DIVES<\/b><br>Population : 3644 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14654&debut=0>14654<\/a> Saint-Pierre-en-Auge<\/b><br>Population : 7835 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14688&debut=0>14688<\/a> THIEVILLE<\/b><br>Population : 216 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14729&debut=0>14729<\/a> VAUDELOGES<\/b><br>Population : 196 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14750&debut=0>14750<\/a> VIEUX-PONT-EN-AUGE<\/b><br>Population : 304 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14624&debut=0>14624<\/a> OUDON<\/b><br>Population : 1510 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14697&debut=0>14697<\/a> OUDON<\/b><br>Population : 1372 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14472&debut=0>14472<\/a> L'Oudon<\/b><br>Population : 1574 hab.","<b><a target=\"_blank\" href=https://www.insee.fr/fr/recherche/recherche-geographique?geo=COM-14654&debut=0>14654<\/a> Saint-Pierre-en-Auge<\/b><br>Population : 7503 hab."]},"edges":{"from":["14010_1968","14067_1968","14234_1968","14295_1968","14314_1968","14363_1968","14447_1968","14472_1968","14624_1968","14697_1968","14624_1982","14697_2014","14081_2016","14099_2016","14331_2016","14433_2016","14450_2016","14472_2016","14489_2016","14580_2016","14616_2016","14654_2016","14688_2016","14729_2016","14750_2016","14081_1968","14099_1968","14331_1968","14433_1968","14450_1968","14489_1968","14580_1968","14616_1968","14654_1968","14654_2017","14688_1968","14729_1968","14750_1968","14624_1975","14697_1990","14472_2015"],"to":["14624_1975","14624_1975","14624_1975","14624_1975","14624_1975","14624_1975","14624_1975","14624_1975","14624_1975","14624_1975","14697_1990","14472_2015","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14654_2017","14081_2016","14099_2016","14331_2016","14433_2016","14450_2016","14489_2016","14580_2016","14616_2016","14654_2016","14654_2021","14688_2016","14729_2016","14750_2016","14624_1982","14697_2014","14472_2016"],"LIBGEO":["AMMEVILLE","BERVILLE","ECOTS","GARNETOT","GRANDMESNIL","LIEURY","MONTPINCON","NOTRE DAME DE FRESNAY","SAINT-MARTIN-DE-FRESNAY","TÔTES","OUDON","L'Oudon","Boissey","Bretteville-sur-Dives","Hiéville","Mittois","Montviette","L'Oudon","Ouville-la-Bien-Tournée","Saint-Georges-en-Auge","Sainte-Marguerite-de-Viette","Saint-Pierre-sur-Dives","Thiéville","Vaudeloges","Vieux-Pont-en-Auge",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"POP":[148,136,84,76,108,236,140,172,172,88,1452,1551,233,290,267,152,195,1579,240,102,378,3539,312,212,300,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"annee":["1973-01-01","1973-01-01","1973-01-01","1973-01-01","1973-01-01","1973-01-01","1973-01-01","1973-01-01","1973-01-01","1973-01-01","1990-02-01","2014-01-07","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01","2017-01-01",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"typemodif":["f","f","f","f","f","f","f","f","f","f","c","c","f","f","f","f","f","f","f","f","f","f","f","f","f",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"ratio":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"arrows.middle.enabled":[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],"dashes":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true],"value":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2],"title":["<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>fusion<\/b><br>Date : 01 janv. 1973<br>","<b>changement de code<\/b><br>Date : 01 févr. 1990<br>","<b>changement de code<\/b><br>Date : 07 janv. 2014<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>","<b>fusion<\/b><br>Date : 01 janv. 2017<br>",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"ellipse","color":{"border":"black","background":"#000000","highlight":{"border":"#000000","background":"#000000"}},"fixed":{"allowedToMoveX":true,"allowedToMoveY":true},"font":{"face":"verdana","color":"#FFFFFF","size":20}},"manipulation":{"enabled":false},"edges":{"width":10,"arrows":{"middle":{"enabled":true,"scaleFactor":3}},"color":{"color":"#2AA198"},"shadow":false},"layout":{"hierarchical":{"enabled":true,"levelSeparation":500,"direction":"LR"},"randomSeed":12},"interaction":{"hoverConnectedEdges":false,"navigationButtons":true,"selectable":false,"selectConnectedEdges":false},"physics":{"hierarchicalRepulsion":{"centralGravity":0,"springConstant":0,"nodeDistance":0}},"configure":{"enabled":false}},"groups":null,"width":"100%","height":"500px","idselection":{"enabled":false},"byselection":{"enabled":false},"main":null,"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)","tooltipStay":300,"tooltipStyle":"position: fixed;visibility:hidden;padding: 5px;white-space: nowrap;font-family: verdana;font-size:14px;font-color:#000000;background-color: #f5f4ed;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);"},"evals":[],"jsHooks":[]}</script>
+
+---
+
+## COGugaison
+
+* **COG** = **O**fficial **G**eographical **C**ode (**OGC**)
+
+an R package for manipulating french **spatial databases** produced at **different dates**
+
+&lt;center&gt;&lt;img src="img/COGugaison.png" width=100%"&gt;&lt;/center&gt;
+
+
+---
+.pull-left[
+### See modifications over the years
+]
+
+.pull-right[
+ &lt;center&gt;&lt;img src="img/trajectoires.png" height="100px"&gt;&lt;/center&gt;
+]
+
+
+
+&lt;svg viewBox="0 0 576 512" style="position:relative;display:inline-block;top:.1em;fill:red;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"&gt;&lt;/path&gt;&lt;/svg&gt; All functions and parameters are translated from French for this presentation
+
+
+```r
+municipality_evolution_graph(code = "76108", year = 2014) # uses {visNetwork}
+```
+
+&lt;center&gt;&lt;img src="img/trajectoire_commune.png" height="100px"&gt;&lt;/center&gt;
+
+
+```r
+evol &lt;- municipalities_evolutions(begin_date="01-01-2011", end_date="01-01-2014")
+```
+
+
+```r
+grep("(76095)|(76108)", evol$mergers, value = TRUE)
+```
+
+
+```
+## 2012-01-01: Bois-Guillaume-Bihorel (76108) is a merger of Bihorel (76095),
+Bois-Guillaume (76108).
+```
+
+
+```r
+grep("(76095)|(76108)", evol$divisions, value = TRUE)
+```
+
+
+```
+## 2014-01-01: Bois-Guillaume (76108) divided into Bois-Guillaume (76108), Bihorel
+## (76095).
+```
+
+---
+
+.pull-left[
+### Guess the year of a database (1)
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/tableau_year.png" height="100px"&gt;&lt;/center&gt;
+]
+
+
+```r
+head(db, 2)
+```
+
+```
+##    code      men    women
+## 1 01001 389.6600 384.5949
+## 2 01002 147.9835 117.3663
+```
+
+
+```r
+OGC_guess(db$code) # guesses the year of the Official Geographic Code (OGC)
+```
+
+
+
+
+```
+## [1] "2019"
+```
+
+
+```r
+# creates a vector of ID of municipalities
+codes &lt;- c(db$code[-1],"75101",NA,"ZZZZZ","98756") 
+merge_OGC(codes = codes, OGC = 2019)$not_in_db # ID not in the db
+```
+
+
+```
+## 01001 97601 97602 97603 97604 97605 97606 97607 97608 97609 97610 97611 97612 97613 97614 97615 97616 97617
+```
+
+
+```r
+merge_OGC(codes = codes, OGC = 2019)$not_in_OGC # ID not in the OGC
+```
+
+
+```
+## 75101 NA ZZZZZ 98756
+```
+---
+
+.pull-left[
+### Guess the year of a database (2)
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/tableau_year.png" height="100px"&gt;&lt;/center&gt;
+]
+
+*Author: Constance Lecomte (Observatoire des Territoires)*
+
+
+
+
+```r
+diagnostic1 &lt;- diag_OGC(db)
+```
+
+```
+[1] "# Synthesis"
+[1] "# OGC 2019"
+[1] "# ------------------------------"
+[1] "# Detailed diagnostic"
+[1] "# The database contains 34953 municipality codes."
+```
+
+---
+
+.pull-left[
+### Guess the year of a database (3)
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/tableau_year.png" height="100px"&gt;&lt;/center&gt;
+]
+
+
+
+
+```r
+db_modified &lt;- db %&gt;% add_row(code = c("75101",NA,"01091","98756","ZZZZZ"))
+diagnostic2 &lt;- diag_OGC(db_modified, hypothesis_OGC = 2019)
+```
+
+```
+[1] "# unidentified OGC"
+[1] "# ------------------------------"
+[1] "# Detailed diagnostic"
+[1] "# The database contains 34953 municipality codes."
+|                         | Number of obs.|
+|:------------------------|--------------:|
+|2019                     |          34952|
+|2018                     |              1|
+|municipality districts   |              1|
+|unknown codes            |              1|
+|missing codes            |              1|
+|overseas municipalities  |              1|
+|unique codes             |          34957|
+```
+
+
+```r
+diagnostic2[which(diagnostic2$diag_ogc!=2019),]
+```
+
+
+```
+##        code              diag_cog men women
+## 34954 75101 municipality district  NA    NA
+## 34955  &lt;NA&gt;          missing code  NA    NA
+## 34956 01091                  2018  NA    NA
+## 34957 98756 overseas municipality  NA    NA
+## 34958 ZZZZZ          unknown code  NA    NA
+```
+
+---
+
+.pull-left[
+### Guess the year of a database (4)
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/tableau_year.png" height="100px"&gt;&lt;/center&gt;
+]
+
+An [online shiny interface](https://observatoire-des-territoires.shinyapps.io/diaCOG/) for `diag_OGC` :
+
+&lt;center&gt;&lt;img src="img/diaCOG.png" width="100%"&gt;&lt;/center&gt;
+
+---
+.pull-left[
+### Change the year of a db (1)
+]
+
+.pull-right[
+ &lt;center&gt;&lt;img src="img/tableau_year2.png" height="100px"&gt;&lt;/center&gt;
+
+]
+
+* **quantitative variable** [numeric]&lt;/br&gt;
+&lt;svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;fill:#562457;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"&gt;&lt;/path&gt;&lt;/svg&gt; See `change_OGC_numeric` 
+
+    + *mergers * &lt;svg viewBox="0 0 192 512" style="position:relative;display:inline-block;top:.1em;fill:#88398A;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"&gt;&lt;/path&gt;&lt;/svg&gt; easy: sum the lines 
+    + *divisions * &lt;svg viewBox="0 0 192 512" style="position:relative;display:inline-block;top:.1em;fill:#88398A;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"&gt;&lt;/path&gt;&lt;/svg&gt; divide lines proportionally to population
+    
+    
+
+```r
+nrow(db)
+```
+
+```
+## [1] 34953
+```
+
+
+```r
+db_2021 &lt;- db %&gt;% # changes the year of a numeric variable (from 2016 to 2019)
+  change_OGC_numeric(2019:2021)
+```
+
+
+
+
+```r
+str(db_2021)
+```
+
+```
+## 'data.frame':	34948 obs. of  3 variables:
+##  $ code : chr  "01001" "01002" "01004" "01005" ...
+##  $ men  : num  389.7 148 6818.6 850.4 55.5 ...
+##  $ women: num  384.6 117.4 7227.6 813.3 50.5 ...
+```
+---
+.pull-left[
+### Change the year of a db (2)
+]
+
+.pull-right[
+ &lt;center&gt;&lt;img src="img/tableau_year2.png" height="100px"&gt;&lt;/center&gt;
+
+]
+
+* **qualitative variable** [character]&lt;/br&gt; 
+&lt;svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;fill:#562457;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"&gt;&lt;/path&gt;&lt;/svg&gt; See `change_OGC_typology`
+
+    + *divisions * &lt;svg viewBox="0 0 192 512" style="position:relative;display:inline-block;top:.1em;fill:#88398A;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"&gt;&lt;/path&gt;&lt;/svg&gt; easy: copy the lines
+    + *mergers * &lt;svg viewBox="0 0 192 512" style="position:relative;display:inline-block;top:.1em;fill:#88398A;height:1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"&gt;&lt;/path&gt;&lt;/svg&gt; several hypotheses: assign the class that contains the most population, define an absorbing or absorbed class...
+
+Example : 
+
+
+
+
+
+
+
+.pull-left[
+ &lt;center&gt;&lt;img src="img/com53_2019.png" width="100%"&gt;&lt;/center&gt;
+
+]
+
+.pull-right[
+
+```r
+db53 &lt;- db %&gt;%  
+  filter(code%in%c("53120","53239",
+                   "53249","53274")) 
+%&gt;%  mutate(women_in_majority = 
+           ifelse(women&gt;men,
+                  "yes","no")) 
+
+db53_2021_maxpop &lt;- db53 %&gt;%
+  change_OGC_typo(2019:2021,
+            typos="women_in_majority",
+            method = "method_max_pop")
+```
+]
+
+
+
+---
+.pull-left[
+### Change the year of a db (3)
+]
+
+.pull-right[
+ &lt;center&gt;&lt;img src="img/tableau_year2.png" height="100px"&gt;&lt;/center&gt;
+
+]
+
+
+
+
+.pull-left[
+ &lt;center&gt;&lt;img src="img/com53_2021_1.png" width="100%"&gt;&lt;/center&gt;
+ &lt;center&gt;&lt;img src="img/com53_2021_3.png" width="100%"&gt;&lt;/center&gt;
+]
+
+.pull-right[
+ &lt;center&gt;&lt;img src="img/com53_2021_4.png" width="100%"&gt;&lt;/center&gt;
+ &lt;center&gt;&lt;img src="img/com53_2021_2.png" width="100%"&gt;&lt;/center&gt;
+]
+
+
+---
+.pull-left[
+### Aggregate a database
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/agreger.png" height="100px"&gt;&lt;/center&gt;
+]
+
+
+
+```r
+db_dep &lt;- db_2021 %&gt;% # aggregates the database (municipalities -&gt; départements)
+  aggregate_OGC(OGC = 2019, administrative_division = "DEP")
+```
+
+
+
+
+```r
+str(db_dep)
+```
+
+```
+## 'data.frame':	100 obs. of  4 variables:
+##  $ DEP   : chr  "01" "02" "03" "04" ...
+##  $ LIBGEO: chr  "Ain" "Aisne" "Allier" "Alpes-de-Haute-Provence" ...
+##  $ men   : num  317820 260811 160815 80043 68993 ...
+##  $ women : num  325644 273593 176879 84241 72343 ...
+```
+
+---
+
+## CARTElette
+
+a repository which contains the **geographical layers** that correspond to the situation of the division of the French territories (France and Overseas) on the first January of each year and R functions to load them.
+
+&lt;center&gt;&lt;img src="img/CARTElette.png" width=100%"&gt;&lt;/center&gt;
+
+---
+
+.pull-left[
+### Load a map layer (1)
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/charger.png" height="100px"&gt;&lt;/center&gt;
+]
+
+
+
+
+
+```r
+library(CARTElette)
+DEP_sf &lt;- load_map(OGC=2021, administrative_division = "DEP")
+```
+
+
+```r
+DEP_sf &lt;- left_join(DEP_sf,db_dep,by=c("DEP"="DEP")) %&gt;%
+  mutate(prop=100*women/(men+women))
+```
+
+
+
+&lt;center&gt;&lt;img src="img/draw_prop.png" height="400px"&gt;&lt;/center&gt;
+
+---
+
+.pull-left[
+### Load a map layer (2)
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/charger.png" height="100px"&gt;&lt;/center&gt;
+]
+
+A [shiny app](https://data.nozav.org/app/prenoms/) using `CARTElette` map layers :
+
+&lt;center&gt;&lt;img src="img/prenoms.png" width="80%"&gt;&lt;/center&gt;
+
+---
+
+.pull-left[
+### Move overseas territories
+]
+
+.pull-right[
+&lt;center&gt;&lt;img src="img/charger.png" height="100px"&gt;&lt;/center&gt;
+]
+
+function `position_overseas()`
+
+&lt;/br&gt;
+
+&lt;center&gt;&lt;img src="img/dom.gif" width="100%"&gt;&lt;/center&gt;
+
+---
+
+## Future improvements? 
+
+* **Create new functions**
+    +  add your own geographical levels
+    +  add your own distribution keys
+    
+* **Expand to other countries**
+    +  in Europe : Nomenclature of Territorial Units for Statistics, NUTS (see `rOpenGov/gicosR`)
+    +  identify common functionnalities VS local (French!) specificities
+
+* **Reach non R-users**
+    +  Shiny Apps
+    +  API
+
+---
+
+class: center, middle
+
+&lt;center&gt;&lt;img src="img/avatar.png" height="300px"&gt;&lt;/center&gt;
+
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
+
+&lt;a href="http://twitter.com/antuki13" class="social"&gt;&lt;i class="fa fa-twitter fa-2x" title="Mon twitter"&gt;&lt;/i&gt;@antuki13&lt;/a&gt;
+&lt;a href="http://github.com/antuki" class="social"&gt;&lt;i class="fa fa-github fa-2x" title="Mon github"&gt;&lt;/i&gt;antuki&lt;/a&gt;
+&lt;a href="http://antuki.github.io" class="social"&gt;&lt;i class="fa fa-bold fa-2x" title="Mon blog"&gt;&lt;/i&gt;antuki.github.io&lt;/a&gt;
+
+
+**Packages on github: [antuki/COGugaison](https://github.com/antuki/COGugaison) and [antuki/CARTElette](https://github.com/antuki/CARTElette).**
+
+Slides created with R package [**xaringan**](https://github.com/yihui/xaringan) with the [R-Ladies theme](https://alison.rbind.io/post/r-ladies-slides/).
+
+Also with [remark.js](https://remarkjs.com), [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com). 
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

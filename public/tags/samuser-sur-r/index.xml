@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S&#39;amuser sur R on antuki.github.io</title>
+    <link>/tags/samuser-sur-r/</link>
+    <description>Recent content in S&#39;amuser sur R on antuki.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 08 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/samuser-sur-r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Premier article plein d&#39;amour :blue_heart: grâce au package emojifont</title>
+      <link>/2017/10/08/emojifont/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/08/emojifont/</guid>
+      <description>
+
+
+&lt;p&gt;Un premier article pour fêter la création de ce blog grâce à &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; et &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt;. Je peux désormais créer des articles (en français et/ou anglais) en un clic depuis R.&lt;/p&gt;
+&lt;p&gt;C’est également l’occasion de partager avec vous ma découverte du package &lt;a href=&#34;https://cran.r-project.org/web/packages/emojifont/vignettes/emojifont.html&#34;&gt;emojifont&lt;/a&gt; qui permet de rajouter des petites images à nos ggplots. Merci à &lt;a href=&#34;https://twitter.com/guangchuangyu&#34;&gt;@guangchuangyu&lt;/a&gt; !&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;emojifont&amp;quot;)
+library(emojifont)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: le package &amp;#39;emojifont&amp;#39; a été compilé avec la version R 3.3.3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+emoji(&amp;#39;blue_heart&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;&amp;lt;f0&amp;gt;&amp;lt;U+009F&amp;gt;&amp;lt;U+0092&amp;gt;&amp;lt;U+0099&amp;gt;&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;t= seq(-1, 1, length=50)
+x=cos(t)*sin(t)*log(abs(t))
+y=sqrt(abs(t))*cos(t)
+#windows()
+ggplot() + geom_emoji(&amp;#39;blue_heart&amp;#39;, x=x, y=y, size=10, color=&amp;quot;#00BCF2&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/articles/2017-10-08_emojifont_files/figure-html/emojifont1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

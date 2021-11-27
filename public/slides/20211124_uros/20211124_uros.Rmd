@@ -1,0 +1,611 @@
+---
+title: "Dealing with the change of administrative divisions over time with <svg viewBox='0 0 581 512' style='height:1em;position:relative;display:inline-block;top:.1em;fill:white;' xmlns='http://www.w3.org/2000/svg'><path d='M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z'></path></svg>"
+author: "Kim Antunez</br></br><svg viewBox='0 0 496 512' style='height:1em;position:relative;fill:white;display:inline-block;top:.1em;' xmlns='http://www.w3.org/2000/svg'><path d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'></path></svg> antuki</br><svg viewBox='0 0 448 512' style='height:1em;fill:white;position:relative;display:inline-block;top:.1em;' xmlns='http://www.w3.org/2000/svg'><path d='M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z'></path></svg> antuki13"
+date: "uRos 2021 - Online event </br>24 November 2021"
+output:
+  xaringan::moon_reader:
+    #chakra: libs/remark-latest.min.js
+    css: ["default", "rladies", "rladies-fonts","antuki.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+#knitr::opts_chunk$set(dev = "svg", cache = FALSE)
+#remotes::install_github("mitchelloharawild/icons", force=TRUE)
+#icons::download_fontawesome()
+```
+
+
+```{r wrap-hook, include=FALSE}
+library(knitr)
+hook_output = knit_hooks$get('output')
+knit_hooks$set(output = function(x, options) {
+  # this hook is used only when the linewidth option is not NULL
+  if (!is.null(n <- options$linewidth)) {
+    x = knitr:::split_lines(x)
+    # any lines wider than n should be wrapped
+    if (any(nchar(x) > n)) x = strwrap(x, width = n)
+    x = paste(x, collapse = '\n')
+  }
+  hook_output(x, options)
+})
+```
+
+.pull-left[
+## Who am I?
+]
+
+.pull-right[
+<center><img src="img/avatar_antuki_v2_small.png" height="150px"></center>
+]
+
+- Kim Antunez
+    * *Now* : civil servant for the French National Institute of Statistics (Insee)
+    
+    * *Before* : Student at ENSAE
+    
+    * *Before again* : worked for the French Observatory of territories (USER of spatial datasets)
+
+
+
+- **R packages** on how to deal with the change of administrative divisions over time, in the case of French territories. 
+
+    * [`COGugaison`](https://antuki.github.io/COGugasion/)
+
+    * [`CARTElette`](https://antuki.github.io/CARTElette/)
+
+---
+
+## Administrative divisions... 
+
+.left-column[
+<img src="img/millefeuille2.png" height="60px"></img>
+<img src="img/millefeuille1.png" height="400px">
+]
+.right-column[
+<center>The French territorial « mille-feuille »</center></br>
+<center><img src="img/carte_millefeuille_v2.png"></center>
+]
+
+---
+## ... change over time
+<center><img src="img/map_fusions.png" height="500px"></center>
+
+
+```{r include=FALSE}
+library(readxl)
+library(dplyr)
+
+communes_vides <- c("26030", "26274", "31127", "54310", "55039", "55050", "55139", "55189", "55239", "55307", "55394", "57470", "65134")
+
+recup_bdd <- function(annee) {
+  bdd <- read_excel("data/pop-sexe-age-quinquennal6817.xls", 
+    sheet = paste0("COM_", annee), skip = 13, col_names = TRUE, 
+    na = "") %>%
+    mutate(codgeo = paste0(substr(DR, 1, 2), CR)) %>%
+    filter(!is.na(get(paste0("ageq_rec01s1rpop", annee)))) %>%
+    mutate(total_s1 = rowSums(select(., contains("s1"))), 
+    total_s2 = rowSums(select(., contains("s2")))) %>%
+    filter( codgeo%in%communes_vides  | 
+             (!codgeo%in%communes_vides & total_s1+total_s2!=0)
+              ) %>% #bug certaines communes sont à 0 au lieu de NA
+    select(codgeo, total_s1, total_s2) %>% 
+    rename(code=codgeo,men=total_s1, women=total_s2)
+  return(bdd)
+}
+library(COGugaison)
+db <- recup_bdd(2017) %>% enlever_PLM 
+
+#liste <- readRDS("data/couches.RDS")
+#COM_sf <- liste[[1]]
+#DEP_sf <- liste[[5]]
+```
+
+---
+
+## ... change over time
+
+The most annoying municipality of France!!!
+
+```{r echo=FALSE}
+trajectoire_commune("14099", 2016) #see also trajectoire_commune_shiny
+```
+
+---
+
+## COGugaison
+
+* **COG** = **O**fficial **G**eographical **C**ode (**OGC**)
+
+an R package for manipulating french **spatial databases** produced at **different dates**
+
+<center><img src="img/COGugaison.png" width=100%"></center>
+
+
+---
+.pull-left[
+### See modifications over the years
+]
+
+.pull-right[
+ <center><img src="img/trajectoires.png" height="100px"></center>
+]
+
+```{r include=FALSE}
+trajectoire_commune("76108", 2014) #see also trajectoire_commune_shiny
+evol <- modifications_communales(date_debut="01-01-2011",date_fin="01-01-2014")
+cat(grep("(76095)|(76108)",strsplit(evol$fusions,"\n",fixed=TRUE)[[1]],value=TRUE))
+cat(grep("(76095)|(76108)",strsplit(evol$defusions,"\n",fixed=TRUE)[[1]],value=TRUE))
+```
+
+`r icons::icon_style(icons::fontawesome("exclamation-triangle", style = "solid"), scale = 1, fill = "red")` All functions and parameters are translated from French for this presentation
+
+```{r eval=FALSE}
+municipality_evolution_graph(code = "76108", year = 2014) # uses {visNetwork}
+```
+
+<center><img src="img/trajectoire_commune.png" height="100px"></center>
+
+```{r eval=FALSE}
+evol <- municipalities_evolutions(begin_date="01-01-2011", end_date="01-01-2014")
+```
+
+```{r linewidth=90, eval=FALSE}
+grep("(76095)|(76108)", evol$mergers, value = TRUE)
+```
+
+```{r linewidth=90, echo=FALSE}
+cat("2012-01-01: Bois-Guillaume-Bihorel (76108) is a merger of Bihorel (76095), Bois-Guillaume (76108).")
+```
+
+```{r linewidth=90, eval=FALSE}
+grep("(76095)|(76108)", evol$divisions, value = TRUE)
+```
+
+```{r linewidth=90, echo=FALSE}
+cat("2014-01-01: Bois-Guillaume (76108) divided into Bois-Guillaume (76108), Bihorel
+(76095).")
+```
+
+---
+
+.pull-left[
+### Guess the year of a database (1)
+]
+
+.pull-right[
+<center><img src="img/tableau_year.png" height="100px"></center>
+]
+
+```{r}
+head(db, 2)
+```
+
+```{r eval=FALSE}
+OGC_guess(db$code) # guesses the year of the Official Geographic Code (OGC)
+```
+
+```{r include=FALSE}
+COG_akinator(db$code)
+```
+
+```{r echo=FALSE}
+print("2019")
+```
+
+```{r eval=FALSE}
+# creates a vector of ID of municipalities
+codes <- c(db$code[-1],"75101",NA,"ZZZZZ","98756") 
+merge_OGC(codes = codes, OGC = 2019)$not_in_db # ID not in the db
+```
+
+```{r echo=FALSE}
+# creates a vector of ID of municipalities
+codes <- c(db$code[-1],"75101",NA,"ZZZZZ","98756") 
+cat(apparier_COG(vecteur_codgeo = codes,COG = 2019,donnees_insee = F)$absent_de_bdd) 
+```
+
+```{r eval=FALSE}
+merge_OGC(codes = codes, OGC = 2019)$not_in_OGC # ID not in the OGC
+```
+
+```{r echo=FALSE}
+cat(apparier_COG(vecteur_codgeo = codes,COG = 2019,donnees_insee = F)$absent_de_COG)
+```
+---
+
+.pull-left[
+### Guess the year of a database (2)
+]
+
+.pull-right[
+<center><img src="img/tableau_year.png" height="100px"></center>
+]
+
+*Author: Constance Lecomte (Observatoire des Territoires)*
+
+```{r, include=FALSE}
+diagnostic1 <- diag_COG(db)
+```
+
+```{r eval=FALSE}
+diagnostic1 <- diag_OGC(db)
+```
+
+```
+[1] "# Synthesis"
+[1] "# OGC 2019"
+[1] "# ------------------------------"
+[1] "# Detailed diagnostic"
+[1] "# The database contains 34953 municipality codes."
+```
+
+---
+
+.pull-left[
+### Guess the year of a database (3)
+]
+
+.pull-right[
+<center><img src="img/tableau_year.png" height="100px"></center>
+]
+
+```{r, include=FALSE}
+db_modified <- db %>% add_row(code = c("75101",NA,"01091","98756","ZZZZZ"))
+diagnostic2 <- diag_COG(db_modified, hypothese_COG = 2019)
+```
+
+```{r eval=FALSE}
+db_modified <- db %>% add_row(code = c("75101",NA,"01091","98756","ZZZZZ"))
+diagnostic2 <- diag_OGC(db_modified, hypothesis_OGC = 2019)
+
+```
+
+```
+[1] "# unidentified OGC"
+[1] "# ------------------------------"
+[1] "# Detailed diagnostic"
+[1] "# The database contains 34953 municipality codes."
+|                         | Number of obs.|
+|:------------------------|--------------:|
+|2019                     |          34952|
+|2018                     |              1|
+|municipality districts   |              1|
+|unknown codes            |              1|
+|missing codes            |              1|
+|overseas municipalities  |              1|
+|unique codes             |          34957|
+```
+
+```{r, eval=FALSE}
+diagnostic2[which(diagnostic2$diag_ogc!=2019),]
+```
+
+```{r, echo=FALSE}
+diagnostic2[which(diagnostic2$diag_cog!=2019),] %>% 
+  mutate(diag_cog= c("municipality district", "missing code", "2018", "overseas municipality", "unknown code"))
+```
+
+---
+
+.pull-left[
+### Guess the year of a database (4)
+]
+
+.pull-right[
+<center><img src="img/tableau_year.png" height="100px"></center>
+]
+
+An [online shiny interface](https://observatoire-des-territoires.shinyapps.io/diaCOG/) for `diag_OGC` :
+
+<center><img src="img/diaCOG.png" width="100%"></center>
+
+---
+.pull-left[
+### Change the year of a db (1)
+]
+
+.pull-right[
+ <center><img src="img/tableau_year2.png" height="100px"></center>
+
+]
+
+* **quantitative variable** [numeric]</br>
+`r icons::icon_style(icons::fontawesome("hand-point-right", style = "solid"), scale = 1, fill = "#562457")` See `change_OGC_numeric` 
+
+    + *mergers * `r icons::icon_style(icons::fontawesome("caret-right", style = "solid"), scale = 1, fill ="#88398A")` easy: sum the lines 
+    + *divisions * `r icons::icon_style(icons::fontawesome("caret-right", style = "solid"), scale = 1, fill ="#88398A")` divide lines proportionally to population
+    
+    
+```{r}
+nrow(db)
+```
+
+```{r eval=FALSE}
+db_2021 <- db %>% # changes the year of a numeric variable (from 2016 to 2019)
+  change_OGC_numeric(2019:2021)
+```
+
+```{r echo=FALSE}
+db_2021 <- db %>% # changes the year of a numeric variable (from 2016 to 2019)
+  changement_COG_varNum(2019:2021)
+```
+
+```{r}
+str(db_2021)
+```
+---
+.pull-left[
+### Change the year of a db (2)
+]
+
+.pull-right[
+ <center><img src="img/tableau_year2.png" height="100px"></center>
+
+]
+
+* **qualitative variable** [character]</br> 
+`r icons::icon_style(icons::fontawesome("hand-point-right", style = "solid"), scale = 1, fill = "#562457")` See `change_OGC_typology`
+
+    + *divisions * `r icons::icon_style(icons::fontawesome("caret-right", style = "solid"), scale = 1, fill ="#88398A")` easy: copy the lines
+    + *mergers * `r icons::icon_style(icons::fontawesome("caret-right", style = "solid"), scale = 1, fill ="#88398A")` several hypotheses: assign the class that contains the most population, define an absorbing or absorbed class...
+
+Example : 
+
+```{r echo=FALSE, eval=FALSE}
+library(mapsf)
+db_53 <- left_join(couche53, db, by=c("INSEE_COM"="code")) %>% 
+  mutate(pop=men+women,
+         women_in_majority=ifelse(women>men,"yes","no"))
+
+mf_theme(pos = "center",mar = c(0,0,1,0))
+mf_map(db_53 %>% st_transform(2154), var = "women_in_majority", type="typo", pal = c("red","green"), leg_pos="topright", leg_title = "Women in majority ?", lwd=1)
+mf_map(db_53 %>% st_transform(2154), var = "pop", type="prop",  leg_pos="right", leg_title="population",lwd=1, col="#FFFFFFB3")
+mf_map(db_53 %>% filter(INSEE_COM!="53120") %>% st_transform(2154) %>% st_union, type="base", leg_pos="right", leg_title="population",lwd=3, border="black", col=NA, add=TRUE)
+mf_layout(title = "Municipalities in 2019 : 3 of them will merge in 2020", scale=FALSE, arrow=FALSE, frame=FALSE, credits="")
+```
+
+```{r echo=FALSE}
+db53 <- db %>%  
+  filter(code %in% c("53120","53239","53249","53274")) %>%   
+  mutate(women_in_majority=ifelse(women>men,"yes","no")) 
+
+db53_2021_fusion <- db53 %>%
+  changement_COG_typo(2019:2021,
+                      typos="women_in_majority",
+                      methode_fusion = "methode_classe_fusion",
+                      mot_fusion = "merged\nmunicipalities"
+                      )
+
+db53_2021_diff <- db53 %>%
+  changement_COG_typo(2019:2021,
+                      typos="women_in_majority",
+                      methode_fusion = "methode_difference",
+                      mot_difference = "difference\nword"
+                      )
+
+
+db53_2021_maxpop <- db53 %>%
+  changement_COG_typo(2019:2021,
+                      typos="women_in_majority",
+                      methode_fusion = "methode_max_pop"
+                      )
+db53_2021_absorbante <- db53 %>%
+  changement_COG_typo(2019:2021,
+                      typos="women_in_majority",
+                      methode_fusion = "methode_classe_absorbante",
+                      classe_absorbante = "yes",
+                      )
+
+db53_2021_absorbee <- db53 %>%
+  changement_COG_typo(2019:2021,
+                      typos="women_in_majority",
+                      methode_fusion = "methode_classe_absorbee",
+                      classe_absorbee = "yes",
+                      )
+```
+
+
+
+.pull-left[
+ <center><img src="img/com53_2019.png" width="100%"></center>
+
+]
+
+.pull-right[
+```{r eval=FALSE}
+db53 <- db %>%  
+  filter(code%in%c("53120","53239",
+                   "53249","53274")) 
+%>%  mutate(women_in_majority = 
+           ifelse(women>men,
+                  "yes","no")) 
+
+db53_2021_maxpop <- db53 %>%
+  change_OGC_typo(2019:2021,
+            typos="women_in_majority",
+            method = "method_max_pop")
+```
+]
+
+
+
+---
+.pull-left[
+### Change the year of a db (3)
+]
+
+.pull-right[
+ <center><img src="img/tableau_year2.png" height="100px"></center>
+
+]
+
+```{r echo=FALSE, eval=FALSE}
+plot_typo <- function(db_modif = db53_2021_absorbante, main="Absorbing class",col=c("red","green")){
+  par(mfrow=c(1,1), mar=c(0,0,0,1))
+  data_plot <- left_join(COM_sf %>% filter(INSEE_COM%in%c("53120","53249")),
+                         db_modif,
+                         by=c("INSEE_COM"="code")
+  ) %>% select(women_in_majority)
+ 
+  mf_theme(pos = "center",mar = c(0,0,1,0))
+  mf_map(data_plot %>% st_transform(2154), var = "women_in_majority", type="typo", pal = col, leg_pos="topright", leg_title = "Women in majority ?", lwd=1)
+  mf_layout(title = main, scale=FALSE, arrow=FALSE, frame=FALSE, credits="")  
+}
+
+plot_typo(db_modif = db53_2021_fusion, main="Indicate merged municipalities",col=c("grey","red"))
+plot_typo(db_modif = db53_2021_absorbante, main="Absorbing class = yes",col=c("red","green"))
+plot_typo(db_modif = db53_2021_absorbee, main="Absorbed class = yes",col=c("red"))
+plot_typo(db_modif = db53_2021_maxpop, main="Max of population",col=c("red","green"))
+
+```
+
+
+.pull-left[
+ <center><img src="img/com53_2021_1.png" width="100%"></center>
+ <center><img src="img/com53_2021_3.png" width="100%"></center>
+]
+
+.pull-right[
+ <center><img src="img/com53_2021_4.png" width="100%"></center>
+ <center><img src="img/com53_2021_2.png" width="100%"></center>
+]
+
+
+---
+.pull-left[
+### Aggregate a database
+]
+
+.pull-right[
+<center><img src="img/agreger.png" height="100px"></center>
+]
+
+
+```{r eval=FALSE}
+db_dep <- db_2021 %>% # aggregates the database (municipalities -> départements)
+  aggregate_OGC(OGC = 2019, administrative_division = "DEP")
+```
+
+```{r echo=FALSE}
+db_dep <- db_2021 %>% # aggregates the database (municipalities -> départements)
+  nivsupra(COG = 2021, nivsupra = "DEP")
+```
+
+```{r}
+str(db_dep)
+```
+
+---
+
+## CARTElette
+
+a repository which contains the **geographical layers** that correspond to the situation of the division of the French territories (France and Overseas) on the first January of each year and R functions to load them.
+
+<center><img src="img/CARTElette.png" width=100%"></center>
+
+---
+
+.pull-left[
+### Load a map layer (1)
+]
+
+.pull-right[
+<center><img src="img/charger.png" height="100px"></center>
+]
+
+
+```{r eval = FALSE, echo=FALSE}
+library(CARTElette)
+DEP_sf <- charger_carte(COG=2021, nivsupra = "DEP")
+```
+
+```{r eval = FALSE}
+library(CARTElette)
+DEP_sf <- load_map(OGC=2021, administrative_division = "DEP")
+```
+
+```{r eval = FALSE}
+DEP_sf <- left_join(DEP_sf,db_dep,by=c("DEP"="DEP")) %>%
+  mutate(prop=100*women/(men+women))
+```
+
+```{r eval = FALSE, echo=FALSE}
+mf_theme(pos = "center",mar = c(1,0,2,0), bg="#FFFFFF")
+mf_map(DEP_sf %>% st_transform(2154), var = "prop", type="choro", nbreaks=5, leg_pos="topright", leg_title = "", lwd=1, leg_val_rnd=1)
+mf_layout(title = "Proportion of women per department (%)", scale=FALSE, arrow=FALSE, frame=FALSE, credits="Source: Insee, COG 2021.\nMap layer antuki/CARTElette")  
+```
+
+<center><img src="img/draw_prop.png" height="400px"></center>
+
+---
+
+.pull-left[
+### Load a map layer (2)
+]
+
+.pull-right[
+<center><img src="img/charger.png" height="100px"></center>
+]
+
+A [shiny app](https://data.nozav.org/app/prenoms/) using `CARTElette` map layers :
+
+<center><img src="img/prenoms.png" width="80%"></center>
+
+---
+
+.pull-left[
+### Move overseas territories
+]
+
+.pull-right[
+<center><img src="img/charger.png" height="100px"></center>
+]
+
+function `position_overseas()`
+
+</br>
+
+<center><img src="img/dom.gif" width="100%"></center>
+
+---
+
+## Future improvements? 
+
+* **Create new functions**
+    +  add your own geographical levels
+    +  add your own distribution keys
+    
+* **Expand to other countries**
+    +  in Europe : Nomenclature of Territorial Units for Statistics, NUTS (see `rOpenGov/gicosR`)
+    +  identify common functionnalities VS local (French!) specificities
+
+* **Reach non R-users**
+    +  Shiny Apps
+    +  API
+
+---
+
+class: center, middle
+
+<center><img src="img/avatar.png" height="300px"></center>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="http://twitter.com/antuki13" class="social"><i class="fa fa-twitter fa-2x" title="Mon twitter"></i>@antuki13</a>
+<a href="http://github.com/antuki" class="social"><i class="fa fa-github fa-2x" title="Mon github"></i>antuki</a>
+<a href="http://antuki.github.io" class="social"><i class="fa fa-bold fa-2x" title="Mon blog"></i>antuki.github.io</a>
+
+
+**Packages on github: [antuki/COGugaison](https://github.com/antuki/COGugaison) and [antuki/CARTElette](https://github.com/antuki/CARTElette).**
+
+Slides created with R package [**xaringan**](https://github.com/yihui/xaringan) with the [R-Ladies theme](https://alison.rbind.io/post/r-ladies-slides/).
+
+Also with [remark.js](https://remarkjs.com), [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com). 
+

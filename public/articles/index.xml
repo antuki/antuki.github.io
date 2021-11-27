@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on antuki.github.io</title>
+    <link>/articles/</link>
+    <description>Recent content in Articles on antuki.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Votre opinion sur les packages COGugaison et CARTElette</title>
+      <link>/2019/11/08/opinion_package/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/08/opinion_package/</guid>
+      <description>Cette enquête a pour objectif de mieux connaître les utilisateurs des deux packages R COGugaison et CARTElette qui permettent de gérer l’évolution des divisions administratives dans le temps en France dans les bases de données et couches cartographiques.
+Merci beaucoup pour votre participation qui contribuera à l’amélioration de ces packages !
+</description>
+    </item>
+    
+    <item>
+      <title>A la recherche d&#39;un stage pour l&#39;été 2020</title>
+      <link>/2019/10/19/internship/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/10/19/internship/</guid>
+      <description>🎤Looking for a 2020 Summer #internship in #DataScience. Back in school @ENSAEparis after five years of professional experience in French official statistics. Preferably in 🇺🇸🇨🇦🇦🇺 Many personal #rstats projects on my github and LinkedIn. https://t.co/NZP2I7o2LT pic.twitter.com/8PXNbCUFvV
+&amp;mdash; antuki (@antuki13) September 21, 2019  Après près de 5 ans d’expérience professionnelle dans la statistique publique, je retourne quelques temps sur les bancs de l’école suite à l’obtention du concours d’administrateur statisticien de l’Insee.</description>
+    </item>
+    
+    <item>
+      <title>Premier article plein d&#39;amour :blue_heart: grâce au package emojifont</title>
+      <link>/2017/10/08/emojifont/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/08/emojifont/</guid>
+      <description>
+
+
+&lt;p&gt;Un premier article pour fêter la création de ce blog grâce à &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; et &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt;. Je peux désormais créer des articles (en français et/ou anglais) en un clic depuis R.&lt;/p&gt;
+&lt;p&gt;C’est également l’occasion de partager avec vous ma découverte du package &lt;a href=&#34;https://cran.r-project.org/web/packages/emojifont/vignettes/emojifont.html&#34;&gt;emojifont&lt;/a&gt; qui permet de rajouter des petites images à nos ggplots. Merci à &lt;a href=&#34;https://twitter.com/guangchuangyu&#34;&gt;@guangchuangyu&lt;/a&gt; !&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;emojifont&amp;quot;)
+library(emojifont)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: le package &amp;#39;emojifont&amp;#39; a été compilé avec la version R 3.3.3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+emoji(&amp;#39;blue_heart&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;&amp;lt;f0&amp;gt;&amp;lt;U+009F&amp;gt;&amp;lt;U+0092&amp;gt;&amp;lt;U+0099&amp;gt;&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;t= seq(-1, 1, length=50)
+x=cos(t)*sin(t)*log(abs(t))
+y=sqrt(abs(t))*cos(t)
+#windows()
+ggplot() + geom_emoji(&amp;#39;blue_heart&amp;#39;, x=x, y=y, size=10, color=&amp;quot;#00BCF2&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/articles/2017-10-08_emojifont_files/figure-html/emojifont1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
