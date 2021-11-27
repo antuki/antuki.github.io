@@ -4,7 +4,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #baseurl = "//antuki.github.io/"
 baseurl = "/"
 DefaultContentLanguage = "fr"
-#publishdir = "../antuki.github.io"
+publishdir = "docs"
 languageCode = "fr"
 title = "antuki.github.io"
 # Enable comments by entering your Disqus shortname
